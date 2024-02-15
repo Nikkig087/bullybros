@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dog Care Hub</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Header Section -->
+  <header>
+    <h1>Dog Care Hub</h1>
+  
+
+  <!-- Navigation Bar -->
+  <nav>
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#grooming">Grooming</a></li>
+      <li><a href="#boarding">Boarding</a></li>
+      <li><a href="#nutrition">Nutrition</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+  </header>
+
+  <!-- Hero Image with Text Overlay -->
+  <section id="home" class="hero">
+    <div class="overlay-text">
+      <h2>See Our Services</h2>
+      <button onclick="scrollToServices()">Explore</button>
+    </div>
+    <img src="dog-hero.jpg" alt="Happy Dog">
+  </section>
+
+  <!-- About Section -->
+  <section id="grooming">
+    <h2>Dog Grooming Services</h2>
+    <p>Keep your furry friend looking and feeling their best with our professional grooming services.</p>
+  </section>
+
+  <!-- Boarding Section -->
+  <section id="boarding">
+    <h2>Dog Boarding</h2>
+    <p>Trust us to provide a comfortable and safe environment for your dog when you're away.</p>
+  </section>
+
+  <!-- Nutrition Section -->
+  <section id="nutrition">
+    <h2>Dog Nutrition Tips</h2>
+    <p>Learn about the best nutrition practices to keep your dog healthy and happy.</p>
+  </section>
+
+  <!-- Services Section -->
+  <section id="services">
+    <div>
+      <!-- Grooming Image with Button -->
+      <img src="grooming.jpg" alt="Grooming Service">
+      <button>Book Grooming</button>
+    </div>
+    <div>
+      <!-- Boarding Image with Button -->
+      <img src="boarding.jpg" alt="Boarding Service">
+      <button>Book Boarding</button>
+    </div>
+    <div>
+      <!-- Nutrition Image with Button -->
+      <img src="nutrition.jpg" alt="Nutrition Info">
+      <button>Explore Nutrition</button>
+    </div>
+  </section>
+
+  <!-- Footer Section -->
+  <footer>
+    <div>
+      <!-- Opening Hours and Contact Details -->
+      <p><strong>Opening Hours:</strong> Mon-Sat: 9 AM - 6 PM</p>
+      <p><strong>Contact:</strong> info@dogcarehub.com</p>
+    </div>
+    <div>
+      <!-- Contact Form -->
+      <form action="submit_form.php" method="post">
+        <label for="fname">First Name:</label>
+        <input type="text" id="fname" name="fname" required>
+
+        <label for="lname">Last Name:</label>
+        <input type="text" id="lname" name="lname" required>
+
+        <label for="query">Query:</label>
+        <textarea id="query" name="query" required></textarea>
+
+        <button type="submit">Submit</button>
+      </form>
+    </div>
+  </footer>
+
+  <script>
+    // JavaScript function to scroll to the Services section
+    function scrollToServices() {
+      document.getElementById('services').scrollIntoView({ behavior: 'smooth' });
+    }
+  </script>
+
+</body>
+</html>

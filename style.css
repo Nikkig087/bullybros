@@ -1,0 +1,151 @@
+
+/* Reset some default styles */
+body, h1, h2, p, ul, li, form {
+     margin: 0;
+    padding: 0;
+    }
+    
+    body {
+     font-family: 'Arial', sans-serif;
+    }
+    
+    /* Header Styles */
+    header {
+     background-color: #6D4C41;
+    color: #fff;
+    text-align: left;
+     padding: 20px;
+     display: flex;
+    
+    }
+    
+    /* Navigation Styles */
+    nav {
+    background-color: #8D6E63;
+    color: #fff;
+    padding: 10px;
+    margin-left: auto;
+    
+    
+    
+    
+    }
+    
+    nav ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    
+    
+   
+    }
+    nav li{
+        justify-content: space-between;
+        padding: 10px;
+    }
+    
+    nav a {
+    text-decoration: none;
+    color: #fff;
+    }
+    
+    /* Hero Section Styles */
+    .hero {
+     position: relative;
+     text-align: center;
+    }
+    
+    /* Overlay Text Styles */
+    .overlay-text {
+     position: absolute;
+    top: 70%;
+     left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    }
+    
+    .overlay-text h2 {
+     font-size: 2em;
+     margin-bottom: 10px;
+    }
+    
+    .overlay-text button {
+    background-color: #6D4C41;
+     color: #fff;
+     padding: 10px 20px;
+     border: none;
+     cursor: pointer;
+     font-size: 1em;
+    }
+    
+    /* About, Boarding, Nutrition Section Styles */
+    section {
+     padding: 20px;
+    }
+    
+    /* Services Section Styles */
+    #services {
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+     padding: 20px;
+    }
+    
+    #services div {
+     text-align: center;
+    }
+    
+    #services img {
+     border-radius: 50%;
+     width: 150px;
+     height: 150px;
+     object-fit: cover;
+    }
+    
+    button {
+     margin-top: 10px;
+     background-color: #6D4C41;
+     color: #fff;
+     padding: 10px 15px;
+     border: none;
+     cursor: pointer;
+    }
+    
+    /* Footer Styles */
+    footer {
+     display: flex;
+     justify-content: space-between;
+     background-color: #8D6E63;
+     color: #fff;
+     padding: 20px;
+    }
+    
+    /* Media Queries for Responsive Design */
+    @media screen and (max-width: 768px) {
+    nav ul {
+    flex-direction: column;
+     align-items: center;
+     }
+    
+     #services {
+     flex-direction: column;
+     }
+    
+     #services div {
+     margin-bottom: 20px;
+     }
+    }
+    
+    /* Tablet Media Query */
+    @media screen and (min-width: 769px) and (max-width: 1024px) {
+     #services {
+     padding: 10px;
+     }
+    }
+    
+    /* Desktop Media Query */
+    @media screen and (min-width: 1025px) {
+     #services {
+     padding: 20px;
+     }
+    }
