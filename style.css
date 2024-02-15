@@ -1,120 +1,142 @@
+/* Google fonts import */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald:wght@200;300;400;500;600;700&display=swap');
 
-/* Reset some default styles */
-body, h1, h2, p, ul, li, form {
-     margin: 0;
+/* Asterisk wildcard selector to override default styles added by the browser */
+* {
     padding: 0;
-    }
-    
-    body {
-     font-family: 'Arial', sans-serif;
-    }
-    
-    /* Header Styles */
+    margin: 0;
+    box-sizing: border-box;
+}
 
-    header {
-        background-color: #ffffff;
-        padding:0 1rem; /*stops text from sticking to side*/
-        position: fixed; /*so it waits at top*/
-        z-index: 99; /* so it waits on top of any other items with a z index */
-        width: 100%; /*to fit width of screen*/
-        box-shadow: 0 2px 2px #3a3a3a;
-        display: flex;/*make flex items show in a row*/
-        justify-content: space-between;
-        align-items: baseline;/* align items vertically*/
-    }
-    
-    header a {
-        text-decoration: none;
-        color: inherit; /*takes color from body*/
-    }
-    
-    
-    
-    #menu {
-        font-size: 110%;
-        letter-spacing: 4px;
-        list-style-type: none;
-    }
-    
-    menu > li {
-        margin-bottom: 1em;
-    }
-    
-    .active {
-        border-bottom: 1px solid #3a3a3a;
-    }
-    
-    /* Navbar Styles with dropdown toggle*/
-    
+/* General styles */
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    /* Generic project styles */
+    color: #3a3a3a;
+    font-family: 'Lato', sans-serif;
+}
+
+/* Header */
+header {
+    background-color: #ffffff;
+    padding: 0 1rem;
+    position: fixed;
+    z-index: 99;
+    width: 100%;
+    box-shadow: 0 2px 2px #3a3a3a;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+header a {
+    text-decoration: none;
+    color: inherit;
+}
+
+h1 {
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #252525;
+}
+
+#menu {
+    font-size: 110%;
+    letter-spacing: 4px;
+    list-style-type: none;
+}
+
+#menu > li {
+    margin-bottom: 1em;
+}
+
+.active {
+    border-bottom: 1px solid #3a3a3a;
+}
+
+/* Navbar styles with dropdown toggle */
+nav {
+    position: absolute;
+    background-color: #ffffff;
+    width: 100%;
+    left: 0;
+    padding: 0 1rem;
+    box-shadow: 0 2px 2px #3a3a3a;
+    display: none;
+    top: 100%;
+}
+
+/* Nav toggle */
+#nav-toggle:checked~nav {
+    display: block;
+}
+
+#nav-toggle {
+    display: none;
+}
+
+.nav-toggle-label {
+    font-size: 2rem;
+}
+
+/* Main content */
+main {
+    background-color: lightblue;
+    /* Make main element take up any surplus space to push footer down */
+    flex: 1 0 auto;
+    margin-top: 47px;
+}
+
+/* Footer */
+footer {
+    background-color: orange;
+}
+
+/* Media query: tablets and larger (768px and up) */
+@media screen and (min-width: 768px) {
+    /* Header */
     nav {
-        position: absolute; /*Absolute positioning takes an element outside the normal
-        flow of the page structure.
-        It is positioned relative to the nearest positioned ancestor
-        in our case, the header.*/
-    
-        background-color: #ffffff;
-        width: 100%;
-        left: 0;
-        padding: 0 1rem;
-        box-shadow: 0 2px 2px #3a3a3a;
-        
-        top: 100%; /*the top of the element should start at the bottom of its parent */
-        color: #8D6E63;
-    }
-
-
-    @media screen  and (min-width:768px) {
-
-        /*Header*/
-        nav{
-            display: block;
-            position: relative;  /* to put in back inside header*/
-            box-shadow: none;
-            width: fit-content;  /* So it doesnt take up all the header*/
-            padding-right: 1rem;
-        }
-    
-        #menu{
-            display: flex; /* puts links in a row */
-        }
-    
-        #menu > li {
-            padding-left: 1rem;
-        }
-    
-        .nav-toggle-label {
-            display: none;
-        }
-    
-        #logo {
-            font-size: 280%;
-            line-height: 75px; /* give more space at top */
-            margin: 0 0.5rem;
-        }
-    
-        /*Main content*/
-        main{
-            /* Push main content down to accomodate larger header */
-            margin-top: 79px;
-    
-        }
-    
-    /*Nav toggle */
-    
-    /* ~ indicates we want to target the adjoining element */
-    
-    #nav-toggle:checked~nav {
         display: block;
+        position: relative;
+        box-shadow: none;
+        width: fit-content;
+        padding-right: 1rem;
     }
-    
-    /*remove checkbox*/
-    #nav-toggle{ 
+
+    #menu {
+        display: flex;
+    }
+
+    #menu > li {
+        padding-left: 1rem;
+    }
+
+    .nav-toggle-label {
         display: none;
     }
-    
-    .nav-toggle-label{
-        font-size: 2rem;
+
+    #logo {
+        font-size: 280%;
+        line-height: 75px;
+        margin: 0 0.5rem;
     }
+
+    /* Main content */
+    main {
+        /* Push main content down to accommodate larger header */
+        margin-top: 79px;
+    }
+}
+/*
+/* Large devices (laptops and desktops, 992px and up) 
+@media screen and (min-width: 992px) {
+    #menu a:hover{
+        border-bottom: 1px solid #3a3a3a;
+    }
+}
     
     
     /* Hero Section Styles */
@@ -151,7 +173,7 @@ body, h1, h2, p, ul, li, form {
      padding: 20px;
     }
     
-    /* Services Section Styles */
+    /* Services Section Styles *
     #services {
      display: flex;
      justify-content: space-around;
@@ -188,7 +210,7 @@ body, h1, h2, p, ul, li, form {
      padding: 20px;
     }
     
-    /* Media Queries for Responsive Design */
+    /* Media Queries for Responsive Design *
     @media screen and (max-width: 768px) {
     nav ul {
     flex-direction: column;
@@ -204,7 +226,7 @@ body, h1, h2, p, ul, li, form {
      }
     }
     
-    /* Tablet Media Query */
+    /* Tablet Media Query *
     @media screen and (min-width: 769px) and (max-width: 1024px) {
      #services {
      padding: 10px;
