@@ -10,44 +10,112 @@ body, h1, h2, p, ul, li, form {
     }
     
     /* Header Styles */
+
     header {
-     background-color: #6D4C41;
-    color: #fff;
-    text-align: left;
-     padding: 20px;
-     display: flex;
-    
-    }
-    
-    /* Navigation Styles */
-    nav {
-    background-color: #8D6E63;
-    color: #fff;
-    padding: 10px;
-    margin-left: auto;
-    
-    
-    
-    
-    }
-    
-    nav ul {
-    list-style-type: none;
-    display: flex;
-    flex-direction: row;
-    
-    
-   
-    }
-    nav li{
+        background-color: #ffffff;
+        padding:0 1rem; /*stops text from sticking to side*/
+        position: fixed; /*so it waits at top*/
+        z-index: 99; /* so it waits on top of any other items with a z index */
+        width: 100%; /*to fit width of screen*/
+        box-shadow: 0 2px 2px #3a3a3a;
+        display: flex;/*make flex items show in a row*/
         justify-content: space-between;
-        padding: 10px;
+        align-items: baseline;/* align items vertically*/
     }
     
-    nav a {
-    text-decoration: none;
-    color: #fff;
+    header a {
+        text-decoration: none;
+        color: inherit; /*takes color from body*/
     }
+    
+    
+    
+    #menu {
+        font-size: 110%;
+        letter-spacing: 4px;
+        list-style-type: none;
+    }
+    
+    menu > li {
+        margin-bottom: 1em;
+    }
+    
+    .active {
+        border-bottom: 1px solid #3a3a3a;
+    }
+    
+    /* Navbar Styles with dropdown toggle*/
+    
+    nav {
+        position: absolute; /*Absolute positioning takes an element outside the normal
+        flow of the page structure.
+        It is positioned relative to the nearest positioned ancestor
+        in our case, the header.*/
+    
+        background-color: #ffffff;
+        width: 100%;
+        left: 0;
+        padding: 0 1rem;
+        box-shadow: 0 2px 2px #3a3a3a;
+        
+        top: 100%; /*the top of the element should start at the bottom of its parent */
+        color: #8D6E63;
+    }
+
+
+    @media screen  and (min-width:768px) {
+
+        /*Header*/
+        nav{
+            display: block;
+            position: relative;  /* to put in back inside header*/
+            box-shadow: none;
+            width: fit-content;  /* So it doesnt take up all the header*/
+            padding-right: 1rem;
+        }
+    
+        #menu{
+            display: flex; /* puts links in a row */
+        }
+    
+        #menu > li {
+            padding-left: 1rem;
+        }
+    
+        .nav-toggle-label {
+            display: none;
+        }
+    
+        #logo {
+            font-size: 280%;
+            line-height: 75px; /* give more space at top */
+            margin: 0 0.5rem;
+        }
+    
+        /*Main content*/
+        main{
+            /* Push main content down to accomodate larger header */
+            margin-top: 79px;
+    
+        }
+    
+    /*Nav toggle */
+    
+    /* ~ indicates we want to target the adjoining element */
+    
+    #nav-toggle:checked~nav {
+        display: block;
+    }
+    
+    /*remove checkbox*/
+    #nav-toggle{ 
+        display: none;
+    }
+    
+    .nav-toggle-label{
+        font-size: 2rem;
+    }
+    
     
     /* Hero Section Styles */
     .hero {
