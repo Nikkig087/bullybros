@@ -20,7 +20,7 @@ body {
 
 /* Header */
 header {
-    background-color: #ffffff;
+    background-color: #8D6E63;
     padding: 0 1rem;
     position: fixed;
     z-index: 99;
@@ -60,7 +60,7 @@ h1 {
 /* Navbar styles with dropdown toggle */
 nav {
     position: absolute;
-    background-color: #ffffff;
+   background-color: inherit;
     width: 100%;
     left: 0;
     padding: 0 1rem;
@@ -88,12 +88,33 @@ main {
     /* Make main element take up any surplus space to push footer down */
     flex: 1 0 auto;
     margin-top: 47px;
+    background: url("hero-image.webp") no-repeat center center/cover;
+}
+
+/*home */
+#home {
+    height: 600px;
+    width: 100%;
 }
 
 /* Footer */
+
+#contact{
+    display: flex;
+    width: 100%;
+    flex: 1;
+    justify-content: space-between;
+    
+}
+.form {
+    align-content: end;
+    flex-direction: column;
+}
+
 footer {
     background-color: orange;
 }
+
 
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
@@ -127,10 +148,10 @@ footer {
     /* Main content */
     main {
         /* Push main content down to accommodate larger header */
-        margin-top: 79px;
+        margin-top: 0px;
     }
 }
-/*
+
 /* Large devices (laptops and desktops, 992px and up) 
 @media screen and (min-width: 992px) {
     #menu a:hover{
@@ -170,7 +191,7 @@ footer {
     
     /* About, Boarding, Nutrition Section Styles */
     section {
-     padding: 20px;
+     padding: 10px;
     }
     
     /* Services Section Styles *
@@ -233,7 +254,7 @@ footer {
      }
     }
     
-    /* Desktop Media Query */
+    /* Desktop Media Query 
     @media screen and (min-width: 1025px) {
      #services {
      padding: 20px;
