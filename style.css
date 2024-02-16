@@ -104,23 +104,57 @@ main {
     text-align: center;
 }
 /* Footer */
-footer {
+.contact-info {
     display: flex;
-    justify-content: space-evenly;
-    align-items: flex-end;
-    width: 100%;
-    margin: 0 auto;
-    padding: 20px;
+    background-color: #8D6E63;
+}
+
+
+  .row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width:100%
   }
+
+ 
+
+  .column {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+  }
+
+
+
+.query {
+    
+    display: inline-block;
+}
   
-  #opening {
-    text-align: left;
-    width: fit-content; /* Adjust the max-width as needed */
+  .query label {
+    display: flex;
+    display: inline-block;
+    width: 20%;
+    
+    
   }
-  
-  #contact {
-    width: 20%; /* Adjust the max-width as needed */
+
+  input[type=text] {
+    padding: 0 10px;
+    display: flex;
+    width: 40%;
+    display: inline-block;
+    margin-right: 20%;
   }
+
+  .submit_form {
+    display: flex;
+    text-align: center;
+    margin:5px 10% 0;
+  }
+ /*
   
   .text-input {
     background: transparent;
@@ -135,17 +169,19 @@ footer {
   }
   
   label {
-    display: inline-block;
+    display: flex;
+    flex-direction: column;
     margin-bottom: 5px;
   }
   
   /* Add additional styling for form layout */
-  form {
+  /*form {
     display: flex;
     flex-direction: column;
+
   }
   
-
+*/
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
     /* Header */
@@ -252,10 +288,10 @@ footer {
      cursor: pointer;
     }
     
-    /* Footer Styles */
+    /* Footer Styles
     footer {
      display: flex;
-    /* justify-content: space-between;*/
+    /* justify-content: space-between;*
      background-color: #8D6E63;
      color: #fff;
      padding: 20px 0px;
