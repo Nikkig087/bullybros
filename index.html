@@ -85,30 +85,30 @@
 
   <!-- Footer Section -->
   <footer>
-    <section id="contact">
-    <div class="opening">
-      <!-- Opening Hours and Contact Details -->
-      <p><strong>Opening Hours:</strong> Mon-Sat: 9 AM - 6 PM</p>
-      <p><strong>Contact:</strong> info@dogcarehub.com</p>
+    <div id="opening">
+      <!-- Opening times go here -->
+      <!-- Example content, replace with your own opening times -->
+      <p>Monday-Friday: 9 AM - 6 PM</p>
+      <p>Saturday: 10 AM - 4 PM</p>
     </div>
-    <div class="form">
+  
+    <div id="contact">
       <!-- Contact Form -->
       <form action="submit_form.php" method="post">
-        <label for="fname">First Name:</label>
-        <input type="text" id="fname" name="fname" required>
-
+        <label for="fname">First Name:
+        <input type="text" id="fname" name="fname" class="text-input" required> </label>
+  
         <label for="lname">Last Name:</label>
-        <input type="text" id="lname" name="lname" required>
-
+        <input type="text" id="lname" name="lname" class="text-input" required>
+  
         <label for="query">Query:</label>
-        <textarea id="query" name="query" required></textarea>
-
+        <textarea id="query" name="query" class="text-input" required></textarea>
+  
         <button type="submit">Submit</button>
       </form>
     </div>
-  </section>
   </footer>
-
+  
   <script>
     // JavaScript function to scroll to the Services section
     function scrollToServices() {
