@@ -88,15 +88,21 @@ main {
     /* Make main element take up any surplus space to push footer down */
     flex: 1 0 auto;
     margin-top: 47px;
-    background: url("hero-image.webp") no-repeat center center/cover;
+    
 }
 
 /*home */
 #home {
     height: 600px;
     width: 100%;
+    background: url("hero-image.webp") no-repeat center center/cover;
 }
 
+#about {
+    width: 90%;
+    margin: 47px;
+    text-align: center;
+}
 /* Footer */
 
 #contact{
