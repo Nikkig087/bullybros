@@ -124,23 +124,53 @@ main {
   width: 48%;
  
 }
-form {
-  display: flex;
-  flex-direction: column;
+
+
+.contact-form {
+    margin-bottom: 0px; /* Adjust spacing between form groups */
+  }
   
-}
-form label {
-  display: inline-block;
-  width: 20%;
+  .contact-form label {
+    display: block; /* Display labels as block elements to stack vertically */
+    width: 50%; /* Fixed width for label */
+    
+  }
+  
+  .contact-form input[type=text] textarea {
+    width: 35%; /* Let the textarea expand to fill available space */
+    resize: vertical; /* Allow vertical resizing of the textarea */
+  }
+  
 
 
 
-}
-
-form input[type="text"]
-{display: inline-block;
-width: 20%;}
- 
+/*
+input[type=text], select, textarea {
+    width: auto;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+  }
+  
+  label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+  }
+  
+  input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
     /* Header */
@@ -179,8 +209,28 @@ width: 20%;}
       .footer__buttom-section p {
           flex: 1 0 auto;
       }
+
+      @media screen and (max-width: 768px) {
+        .contact-form label {
+          width: 100%; /* Full width for label on mobile */
+        }
+      
+        .contact-form input[type=text],
+        .contact-form textarea {
+          width: 100%; /* Full width for input fields on mobile */
+        }
+      }
+
+  /*    .contact-mobile > label {
+        width: 100%;
+      }
+
+      .contact-mobile> input[type=text],
+.contact-mobile> textarea {
+  width: 35%; /* Let the textarea expand to fill available space 
+  resize: vertical; /* Allow vertical resizing of the textarea */
   
-  }
+  
 
   
 
@@ -296,7 +346,7 @@ width: 20%;}
      }
     }
     
-    /* Tablet Media Query */
+    /* Tablet Media Query *
     @media screen and (min-width: 769px) and (max-width: 1024px) {
      #services {
      padding: 10px;
