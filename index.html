@@ -86,21 +86,22 @@
   </main>
 
   <!-- Footer Section -->
-  <footer>
+ 
+    <!--
     <div class="contact-info">
-      <div class="row">
-        <div class="column1">
-          <div class="times">
+     
+        <div class="column1 footer-section">
+       
           <!-- Opening times go here -->
-          <!-- Example content, replace with your own opening times -->
+          <!-- Example content, replace with your own opening times 
           <p>Monday-Friday: 9 AM - 6 PM</p>
           <p>Saturday: 10 AM - 4 PM</p>
-        </div>
+       
       </div>
 
-        <div class="column2">
-          <div class="query">
-          <!-- Contact Form -->
+        <div class="column2 footer-section">
+          
+          <!-- Contact Form -
           <form action="submit_form.php" method="post" >
             <label for="fname">First Name:</label>
               <input type="text" id="fname" name="fname" class="text-input" required> 
@@ -114,9 +115,61 @@
             <button type="submit" class="submit_form">Submit</button>
           </form>
         </div>
+        
+      </div>-->
+      <footer>
+        <!-- logo with website title  -->
+        <div class="footer__top-section">
+            <div>
+                <img src="assets/images/logo2.webp" alt="The logo of the page">
+                <p>Healthy Hub</p>
+                <ul id="social-media">
+
+                    <li>
+                        <!-- rel="noopener noreferrer"  this to protect the website from possibles attacks -->
+                        <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer"
+                            aria-label="visit our facebook page (opens in new tab)"><i
+                                class="fa-brands fa-facebook"></i></a>
+                    </li>
+                    <li>
+                        <!-- rel="noopener noreferrer"  this to protect the website from possibles attacks -->
+                        <a href="https://www.twitter.com" target="_blank" rel="noopener noreferrer"
+                            aria-label="visit our twitter page (opens in new tab)"><i
+                                class="fa-brands fa-twitter-square"></i></a>
+                    </li>
+                    <li>
+                        <!-- rel="noopener noreferrer"  this to protect the website from possibles attacks -->
+                        <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer"
+                            aria-label="visit our instagram page (opens in new tab)"><i
+                                class="fa-brands fa-instagram"></i></a>
+                    </li>
+                    <li>
+                        <!-- rel="noopener noreferrer"  this to protect the website from possibles attacks -->
+                        <a href="https://www.youtube.com" target="_blank" rel="noopener noreferrer"
+                            aria-label="visit our youtube page (opens in new tab)"><i
+                                class="fa-brands fa-youtube-square"></i></a>
+                    </li>
+
+                </ul>
+            </div>
+            <!-- important links  -->
+            <div>
+              <!-- Contact Form -->
+          <form action="submit_form.php" method="post" >
+            <label for="fname">First Name:</label>
+              <input type="text" id="fname" name="fname" class="text-input" required> 
+
+            <label for="lname">Last Name:</label>
+            <input type="text" id="lname" name="lname" class="text-input" required>
+
+            <label for="query">Query:</label>
+            <textarea id="query" name="query" class="text-input" required></textarea>
+              <br>
+            <button type="submit" class="submit_form">Submit</button>
+          </form>
+            </div>
         </div>
-      </div>
-    </div>
+    
   </footer>
 
   <script>
