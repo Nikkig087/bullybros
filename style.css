@@ -121,6 +121,8 @@ main {
 .footer__top-section>div {
   margin: 8px 0;
   text-align: center;
+  width: 48%;
+ 
 }
 form {
   display: flex;
@@ -129,12 +131,15 @@ form {
 }
 form label {
   display: inline-block;
+  width: 20%;
+
 
 
 }
 
 form input[type="text"]
-{display: inline-block;}
+{display: inline-block;
+width: 20%;}
  
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
