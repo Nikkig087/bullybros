@@ -185,7 +185,7 @@ input[type=text], select, textarea {
     background-color: #45a049;
   }
 /* Media query: tablets and larger (460px to 768px) */
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 320px)and (max-width:768px) {
     /* Header */
     nav {
         display: block;
@@ -217,22 +217,48 @@ input[type=text], select, textarea {
           flex-direction: column;
           justify-content: space-around;
           align-items: center;
+          width: 100%;
+          
+        
+      }
+
+      .footer__top-section>div {
+        margin: 8px 0;
+        text-align: center;
+        width: 100%;
+       
       }
   
       .footer__buttom-section p {
           flex: 1 0 auto;
       }
 
+      .contact-form {
+        margin-bottom: 0px; /* Adjust spacing between form groups */
+        flex-direction: column;
+        flex-wrap: wrap;
+        width: 100%;
+        text-align: left;
+        margin-left: 10%;
+      }
+
       /*@media screen and (max-width: 768px) {*/
         .contact-form label {
-          width: 50%; /* Full width for label on mobile */
+          width: 40%; /* Full width for label on mobile */
+          display: inline-block;
         }
       
-        .contact-form input[type=text],
-        .contact-form textarea {
-          width: 30%; /* Full width for input fields on mobile */
+        .contact-form input[type=text], .contact-form textarea  {
+          width: 40%; /* Let the textarea expand to fill available space */
+          resize: vertical; /* Allow vertical resizing of the textarea */
+          display: inline-block;
+          margin: 2% 0;
+          padding: 5px 0px;
+         
+          
+          
+         
         }
-      }
 
   /*    .contact-mobile > label {
         width: 100%;
@@ -304,7 +330,7 @@ input[type=text], select, textarea {
     }
 
  
-   
+  }
     
     /* Services Section Styles *
     #services {
@@ -373,57 +399,67 @@ input[type=text], select, textarea {
      }
     }*/
 
-    @media screen and (max-width: 1024px) {
+    @media screen and (min-width:762px) and (max-width: 1500px) {
      
-.footer__top-section {
-  padding: 10px;
-  margin: 0 auto;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: row;
+      .footer__top-section {
+        padding: 10px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+      
+      }
+      
+      /*.footer__top-section img {
+        width: 100px;
+      }*/
+      
+      .footer__top-section>div {
+        margin: 8px 0;
+        text-align: center;
+        width: 48%;
+       
+      }
+      
+      
+      .contact-form {
+          margin-bottom: 0px; /* Adjust spacing between form groups */
+          flex-direction: column;
+          flex-wrap: wrap;
+          width: 90%;
+          text-align: left;
+          margin-left: 10%;
+          margin-right: 10%;
+        }
+        
+        .contact-form label {
+          /* Display labels as block elements to stack vertically */
+          width: 30%; /* Fixed width for label */
+          padding: 5px 0px;
 
-}
 
-/*.footer__top-section img {
-  width: 100px;
-}*/
-
-.footer__top-section>div {
-  margin: 8px 0;
-  text-align: center;
-  width: 48%;
- 
-}
-
-
-.contact-form {
-    margin-bottom: 0px; /* Adjust spacing between form groups */
-    flex-direction: column;
-    flex-wrap: wrap;
-    width: 100%;
-    text-align: left;
-    margin-left: 10%;
-  }
+      
+          
+          
+          
+        }
+        
+        .contact-form input[type=text], .contact-form textarea  {
+          width: 40%; /* Let the textarea expand to fill available space */
+          resize: vertical; /* Allow vertical resizing of the textarea */
+          display: inline-block;
+          margin: 2% 0;
+         padding: 5px 0px;
+         
+          
+          
+         
+        }
+         
+          
+          
+         
+        }
   
-  .contact-form label {
-    display: inline-block;/* Display labels as block elements to stack vertically */
-    width: 30%; /* Fixed width for label */
-
     
-    
-    
-  }
-  
-  .contact-form input[type=text] textarea {
-    width: 80%; /* Let the textarea expand to fill available space */
-    resize: vertical; /* Allow vertical resizing of the textarea */
-    display: inline-block;
-    
-   
-    
-    
-   
-  }
-  
-    }
