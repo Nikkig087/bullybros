@@ -110,13 +110,13 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: column;
+  flex-direction: row;
 
 }
 
-.footer__top-section img {
+/*.footer__top-section img {
   width: 100px;
-}
+}*/
 
 .footer__top-section>div {
   margin: 8px 0;
@@ -128,17 +128,30 @@ main {
 
 .contact-form {
     margin-bottom: 0px; /* Adjust spacing between form groups */
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 48%;
+    text-align: left;
+    margin-left: 10%;
   }
   
   .contact-form label {
-    display: block; /* Display labels as block elements to stack vertically */
-    width: 50%; /* Fixed width for label */
+    display: inline-block;/* Display labels as block elements to stack vertically */
+    width: 30%; /* Fixed width for label */
+
+    
+    
     
   }
   
   .contact-form input[type=text] textarea {
-    width: 35%; /* Let the textarea expand to fill available space */
+    width: 40%; /* Let the textarea expand to fill available space */
     resize: vertical; /* Allow vertical resizing of the textarea */
+    
+   
+    
+    
+   
   }
   
 
@@ -171,8 +184,8 @@ input[type=text], select, textarea {
   input[type=submit]:hover {
     background-color: #45a049;
   }
-/* Media query: tablets and larger (768px and up) */
-@media screen and (min-width: 768px) {
+/* Media query: tablets and larger (460px to 768px) */
+@media screen and (max-width: 768px) {
     /* Header */
     nav {
         display: block;
@@ -201,7 +214,7 @@ input[type=text], select, textarea {
     }
         /* footer  */
         .footer__top-section {
-          flex-direction: row;
+          flex-direction: column;
           justify-content: space-around;
           align-items: center;
       }
@@ -210,14 +223,14 @@ input[type=text], select, textarea {
           flex: 1 0 auto;
       }
 
-      @media screen and (max-width: 768px) {
+      /*@media screen and (max-width: 768px) {*/
         .contact-form label {
-          width: 100%; /* Full width for label on mobile */
+          width: 50%; /* Full width for label on mobile */
         }
       
         .contact-form input[type=text],
         .contact-form textarea {
-          width: 100%; /* Full width for input fields on mobile */
+          width: 30%; /* Full width for input fields on mobile */
         }
       }
 
@@ -358,4 +371,59 @@ input[type=text], select, textarea {
      #services {
      padding: 20px;
      }
+    }*/
+
+    @media screen and (max-width: 1024px) {
+     
+.footer__top-section {
+  padding: 10px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+
+}
+
+/*.footer__top-section img {
+  width: 100px;
+}*/
+
+.footer__top-section>div {
+  margin: 8px 0;
+  text-align: center;
+  width: 48%;
+ 
+}
+
+
+.contact-form {
+    margin-bottom: 0px; /* Adjust spacing between form groups */
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 100%;
+    text-align: left;
+    margin-left: 10%;
+  }
+  
+  .contact-form label {
+    display: inline-block;/* Display labels as block elements to stack vertically */
+    width: 30%; /* Fixed width for label */
+
+    
+    
+    
+  }
+  
+  .contact-form input[type=text] textarea {
+    width: 80%; /* Let the textarea expand to fill available space */
+    resize: vertical; /* Allow vertical resizing of the textarea */
+    display: inline-block;
+    
+   
+    
+    
+   
+  }
+  
     }
