@@ -84,10 +84,11 @@ nav {
 
 /* Main content */
 main {
-    background-color: lightblue;
+    background-color: bisque;
     /* Make main element take up any surplus space to push footer down */
     flex: 1 0 auto;
-    margin-top: 47px;
+    margin-top: 40px;
+    
     
 }
 
@@ -102,6 +103,7 @@ main {
     width: 90%;
     margin: 47px;
     text-align: center;
+
 }
 /* Footer */
 .footer__top-section {
@@ -194,6 +196,13 @@ input[type=text], select, textarea {
         width: fit-content;
         padding-right: 1rem;
     }*/
+    main {
+      width: 100%;
+      
+    
+    }
+    
+    
 
     #menu {
         display: flex;
@@ -245,7 +254,7 @@ input[type=text], select, textarea {
       cursor: pointer;
       display: block;
       width: 200px;
-     }*/
+     }
         /* footer  */
         .footer__top-section {
           flex-direction: column;
@@ -333,6 +342,8 @@ input[type=text], select, textarea {
     .hero {
      position: relative;
      text-align: center;
+     width: 100%;
+   
     }
     
     /* Overlay Text Styles */
@@ -407,7 +418,27 @@ input[type=text], select, textarea {
     }*/
 
     @media screen and (min-width:768px)  {
-      
+      nav{
+          display: block;
+          position: relative;  /* to put in back inside header*/
+          box-shadow: none;
+          width: fit-content;  /* So it doesnt take up all the header*/
+          padding-right: 1rem;
+      }
+  
+      #menu{
+          display: flex; /* puts links in a row */
+      }
+  
+      #menu > li {
+          padding-left: 1rem;
+      }
+  
+      .nav-toggle-label {
+          display: none;
+      }
+  
+
     
     /* Services Section Styles */ #services {
       display: flex;
@@ -507,8 +538,8 @@ input[type=text], select, textarea {
       display: flex;
       justify-content: space-around;
       align-items: center;
-      padding: 20px;
-      height: 260px;
+      padding: 10px 20px 0px;
+      height: 300px;
      }
      
      #services div {
@@ -523,7 +554,7 @@ input[type=text], select, textarea {
      }
      
      button {
-      margin-top: 20px;
+      margin: 20px;
       background-color: #6D4C41;
       color: #fff;
       padding: 10px 20px;
