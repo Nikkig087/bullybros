@@ -399,7 +399,7 @@ input[type=text], select, textarea {
      }
     }*/
 
-    @media screen and (min-width:762px) and (max-width: 1500px) {
+    @media screen and (min-width:768px)  {
      
       .footer__top-section {
         padding: 10px;
@@ -451,15 +451,75 @@ input[type=text], select, textarea {
           display: inline-block;
           margin: 2% 0;
          padding: 5px 0px;
+        }
+      }
          
           
           
          
+
+         @media screen and  (min-width: 992px) {
+     
+          .footer__top-section {
+            padding: 10px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: row;
+          
+          }
+          
+          /*.footer__top-section img {
+            width: 100px;
+          }*/
+          
+          .footer__top-section>div {
+            margin: 8px 0;
+            text-align: center;
+            width: 48%;
+           
+          }
+          
+          
+          .contact-form {
+              margin-bottom: 0px; /* Adjust spacing between form groups */
+              flex-direction: column;
+              flex-wrap: wrap;
+              width: 90%;
+              text-align: left;
+              margin-left: 10%;
+              margin-right: 10%;
+            }
+            
+            .contact-form label {
+              /* Display labels as block elements to stack vertically */
+              width: 30%; /* Fixed width for label */
+              padding: 5px 0px;
+    
+    
+          
+              
+              
+              
+            }
+            
+            .contact-form input[type=text], .contact-form textarea  {
+              width: 40%; /* Let the textarea expand to fill available space */
+              resize: vertical; /* Allow vertical resizing of the textarea */
+              display: inline-block;
+              margin: 2% 0;
+             padding: 5px 0px;
+             
+              
+              
+             
+            }
         }
          
           
           
          
-        }
+        
   
     
