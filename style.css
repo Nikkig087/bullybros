@@ -94,10 +94,11 @@ main {
 }
 
 /*home */
-#home {
-    height: 600px;
+#hero {
+    height: 500px;
     width: 100%;
     background: url("hero-image.webp") no-repeat center center/cover;
+    position: relative;
 }
 
 #about {
@@ -117,9 +118,6 @@ main {
 
 }
 
-/*.footer__top-section img {
-  width: 100px;
-}*/
 
 .footer__top-section>div {
   margin: 8px 0;
@@ -142,61 +140,25 @@ main {
     display: inline-block;/* Display labels as block elements to stack vertically */
     width: 30%; /* Fixed width for label */
 
-    
-    
-    
   }
   
   .contact-form input[type=text] textarea {
     width: 40%; /* Let the textarea expand to fill available space */
     resize: vertical; /* Allow vertical resizing of the textarea */
     
-   
-    
-    
-   
   }
   
 
 
-
-/*
-input[type=text], select, textarea {
-    width: auto;
-    padding: 12px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    resize: vertical;
-  }
-  
-  label {
-    padding: 12px 12px 12px 0;
-    display: inline-block;
-  }
-  
-  input[type=submit] {
-    background-color: #04AA6D;
-    color: white;
-    padding: 12px 20px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-    float: right;
-  }
-  
-  input[type=submit]:hover {
-    background-color: #45a049;
-  }
-/* Media query: tablets and larger (460px to 768px) */
 @media screen and (max-width: 600px) {
-    /* Header *
-    nav {
-        display: block;
-        position: relative;
-        box-shadow: none;
-        width: fit-content;
-        padding-right: 1rem;
-    }*/
+    /* Header */
+   
+    #home {
+      height: 600px;
+      width: 100%;
+      background: url("hero-image.webp") no-repeat center center/cover;
+  }
+    
     main {
       width: 100%;
       
@@ -212,12 +174,7 @@ input[type=text], select, textarea {
     #menu > li {
         padding-left: 1rem;
     }
-    /*
-
-    .nav-toggle-label {
-        display: none;
-    }*/
-
+   
     #logo {
         font-size: 280%;
         line-height: 75px;
@@ -225,7 +182,7 @@ input[type=text], select, textarea {
     }
 
     
-    /* Ser0vices Section Styles */
+    /* Services Section Styles */
     #services {
       display: flex;
       justify-content: space-around;
@@ -299,46 +256,8 @@ input[type=text], select, textarea {
           margin: 2% 0;
           padding: 5px 0px;
          
-          
-          
-         
         }
 
-  /*    .contact-mobile > label {
-        width: 100%;
-      }
-
-      .contact-mobile> input[type=text],
-.contact-mobile> textarea {
-  width: 35%; /* Let the textarea expand to fill available space 
-  resize: vertical; /* Allow vertical resizing of the textarea */
-  
-  
-
-  
-
-        
-
-    /* Main content 
-    main {
-        /* Push main content down to accommodate larger header 
-        margin-top: 0px;
-    }
-
-   
-    
-
-   
-}
-
-/* Large devices (laptops and desktops, 992px and up) 
-@media screen and (min-width: 992px) {
-    #menu a:hover{
-        border-bottom: 1px solid #3a3a3a;
-    }
-}
-    
-    
     /* Hero Section Styles */
     .hero {
      position: relative;
@@ -374,49 +293,10 @@ input[type=text], select, textarea {
     section {
      padding: 10px;
     }
-
- 
   }
     
     
-    /* Footer Styles
-    footer {
-     display: flex;
-    /* justify-content: space-between;*
-     background-color: #8D6E63;
-     color: #fff;
-     padding: 20px 0px;
-    }
-    
-    /* Media Queries for Responsive Design *
-    @media screen and (max-width: 768px) {
-    nav ul {
-    flex-direction: column;
-     align-items: center;
-     }
-    
-     #services {
-     flex-direction: column;
-     }
-    
-     #services div {
-     margin-bottom: 20px;
-     }
-    }
-    
-    /* Tablet Media Query *
-    @media screen and (min-width: 769px) and (max-width: 1024px) {
-     #services {
-     padding: 10px;
-     }
-    }
-    
-    /* Desktop Media Query 
-    @media screen and (min-width: 1025px) {
-     #services {
-     padding: 20px;
-     }
-    }*/
+
 
     @media screen and (min-width:600px) and (max-width:768px)  {
       nav{
@@ -441,7 +321,8 @@ input[type=text], select, textarea {
   
 
     
-    /* Services Section Styles */ #services {
+    /* Services Section Styles */ 
+    #services {
       display: flex;
       justify-content: space-around;
       align-items: center;
@@ -483,10 +364,7 @@ input[type=text], select, textarea {
       
       }
       
-      /*.footer__top-section img {
-        width: 100px;
-      }*/
-      
+
       .footer__top-section>div {
         margin: 8px 0;
         text-align: center;
@@ -510,11 +388,6 @@ input[type=text], select, textarea {
           width: 30%; /* Fixed width for label */
           padding: 5px 0px;
 
-
-      
-          
-          
-          
         }
         
         .contact-form input[type=text], .contact-form textarea  {
@@ -550,12 +423,27 @@ input[type=text], select, textarea {
       }
          
           
-          
-         
-
          @media screen and  (min-width: 992px) {
 
-          
+          nav{
+            display: block;
+            position: relative;  /* to put in back inside header*/
+            box-shadow: none;
+            width: fit-content;  /* So it doesnt take up all the header*/
+            padding-right: 1rem;
+        }
+    
+        #menu{
+            display: flex; /* puts links in a row */
+        }
+    
+        #menu > li {
+            padding-left: 1rem;
+        }
+    
+        .nav-toggle-label {
+            display: none;
+        }
     
     /* Services Section Styles */
     #services {
@@ -599,9 +487,7 @@ input[type=text], select, textarea {
           
           }
           
-          /*.footer__top-section img {
-            width: 100px;
-          }*/
+
           
           .footer__top-section>div {
             margin: 8px 0;
