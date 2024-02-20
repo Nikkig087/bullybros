@@ -16,12 +16,13 @@ body {
     /* Generic project styles */
     color: #3a3a3a;
     font-family: 'Lato', sans-serif;
+    width: 100%;
 }
 
 /* Header */
 header {
     background-color: #8D6E63;
-    padding: 0 1rem;
+    /*padding: 0 1rem;*/
     position: fixed;
     z-index: 99;
     width: 100%;
@@ -147,6 +148,19 @@ main {
     resize: vertical; /* Allow vertical resizing of the textarea */
     
   }
+
+  .opening-hours {
+    display: flex;
+    align-content: center;
+    display: block;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 15%;
+  }
+
+  .opening-hours td {
+    padding: 0px 5px;
+  }
   
 
 
@@ -157,11 +171,7 @@ main {
       padding: 0 1rem;
       justify-content: space-around;
     }
-    #home {
-      height: 600px;
-      width: 100%;
-      background: url("hero-image.webp") no-repeat center center/cover;
-  }
+ 
     
     main {
       width: 100%;
@@ -203,9 +213,6 @@ main {
       
   }
   
-    
-    
-
     #menu {
        
         padding-right: 20px;
@@ -221,88 +228,15 @@ main {
         margin: 0 0.5rem;
     }
 
-    
-    /* Services Section Styles */
-    #services {
-      display: flex;
-      justify-content: space-around;
-      align-items: center;
-      padding: 20px;
-      height: 800px;
-      flex-direction: column;
-     }
-     
-     #services div {
-      text-align: center;
-     }
-     
-     #services img {
-      border-radius: 50%;
-      width: 200px;
-      height: 200px;
-      object-fit: cover;
-     }
-     
-     button {
-      margin-top: 20px;
-      background-color: #6D4C41;
-      color: #fff;
-      padding: 10px 20px;
-      border: none;
-      cursor: pointer;
-      display: block;
-      width: 200px;
-     }
-        /* footer  */
-        .footer__top-section {
-          flex-direction: column;
-          justify-content: space-around;
-          align-items: center;
-          width: 100%;
-          
-        
-      }
-
-      .footer__top-section>div {
-        margin: 8px 0;
-        text-align: center;
-        width: 100%;
-       
-      }
-  
-      .footer__buttom-section p {
-          flex: 1 0 auto;
-      }
-
-      .contact-form {
-        margin-bottom: 0px; /* Adjust spacing between form groups */
-        flex-direction: column;
-        flex-wrap: wrap;
-        width: 100%;
-        text-align: left;
-        margin-left: 10%;
-      }
-
-      /*@media screen and (max-width: 768px) {*/
-        .contact-form label {
-          width: 40%; /* Full width for label on mobile */
-          display: inline-block;
-        }
-      
-        .contact-form input[type=text], .contact-form textarea  {
-          width: 40%; /* Let the textarea expand to fill available space */
-          resize: vertical; /* Allow vertical resizing of the textarea */
-          display: inline-block;
-          margin: 2% 0;
-          padding: 5px 0px;
-         
-        }
-
     /* Hero Section Styles */
-    .hero {
+    #hero {
      position: relative;
      text-align: center;
      width: 100%;
+     margin: 0;
+
+     height: 600px;
+     background: url("hero-image.webp") no-repeat center center/cover;
    
     }
     
@@ -335,20 +269,95 @@ main {
     }
     #about {
 
-      margin: 47px;
+      margin: 47px auto;
       text-align: center;
       display: flex;
       flex-direction: column;
       padding-right: 40px;
   
   }
+      /* Services Section Styles */
+      #services {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding: 20px;
+        height: 800px;
+        flex-direction: column;
+       }
+       
+       #services div {
+        text-align: center;
+       }
+       
+       #services img {
+        border-radius: 50%;
+        width: 200px;
+        height: 200px;
+        object-fit: cover;
+       }
+       
+       button {
+        margin-top: 20px;
+        background-color: #6D4C41;
+        color: #fff;
+        padding: 10px 20px;
+        border: none;
+        cursor: pointer;
+        display: block;
+        width: 200px;
+       }
+          /* footer  */
+          .footer__top-section {
+            flex-direction: column;
+            justify-content: space-around;
+            align-items: center;
+            width: 100%;
+            
+          
+        }
+  
+        .footer__top-section>div {
+          margin: 8px 0;
+          text-align: center;
+          width: 100%;
+         
+        }
+    
+        .footer__buttom-section p {
+            flex: 1 0 auto;
+        }
+  
+        .contact-form {
+          margin-bottom: 0px; /* Adjust spacing between form groups */
+          flex-direction: column;
+          flex-wrap: wrap;
+          width: 100%;
+          text-align: left;
+          margin-left: 10%;
+        }
+  
+        /*@media screen and (max-width: 768px) {*/
+          .contact-form label {
+            width: 40%; /* Full width for label on mobile */
+            display: inline-block;
+          }
+        
+          .contact-form input[type=text], .contact-form textarea  {
+            width: 40%; /* Let the textarea expand to fill available space */
+            resize: vertical; /* Allow vertical resizing of the textarea */
+            display: inline-block;
+            margin: 2% 0;
+            padding: 5px 0px;
+           
+          }
   }
  
     
     
 
 
-    @media screen and (min-width:600px) and (max-width:768px)  {
+    @media screen and (min-width:600px) /*and (max-width:768px)*/  {
 
       header {
         padding: 0 1rem;
@@ -385,6 +394,8 @@ main {
       height: 260px;
       flex-direction: row;
      }
+
+    
      
      #services div {
       text-align: center;
@@ -476,9 +487,275 @@ main {
       font-size: 1em;
      }
       }
+
+      @media screen and (min-width:768px)  {
+
+        header {
+          padding: 0 1rem;
+          justify-content: space-around;
+        }
+        nav{
+            display: block;
+            position: relative;  /* to put in back inside header*/
+            box-shadow: none;
+            width: fit-content;  /* So it doesnt take up all the header*/
+            padding-right: 2rem;
+        }
+    
+        #menu{
+            display: flex; /* puts links in a row */
+        }
+    
+        #menu > li {
+            padding-left: 1rem;
+        }
+    
+        .nav-toggle-label {
+            display: none;
+        }
+    
+  
+      
+      /* Services Section Styles */ 
+      #services {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding: 20px;
+        height: 260px;
+        flex-direction: row;
+       }
+       
+       #services div {
+        text-align: center;
+       }
+       
+       #services img {
+        border-radius: 50%;
+        width: 200px;
+        height: 200px;
+        object-fit: cover;
+       }
+       
+       button {
+        margin-top: 20px;
+        background-color: #6D4C41;
+        color: #fff;
+        padding: 10px 20px;
+        border: none;
+        cursor: pointer;
+        display: block;
+        width: 200px;
+       }
+       
+       
+        .footer__top-section {
+          padding: 10px;
+          margin: 0 auto;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          flex-direction: row;
+        
+        }
+        
+  
+        .footer__top-section>div {
+          margin: 8px 0;
+          text-align: center;
+          width: 48%;
+         
+        }
+        
+        
+        .contact-form {
+            margin-bottom: 0px; /* Adjust spacing between form groups */
+            flex-direction: column;
+            flex-wrap: wrap;
+            width: 90%;
+            text-align: left;
+            margin-left: 10%;
+            margin-right: 10%;
+          }
+          
+          .contact-form label {
+            /* Display labels as block elements to stack vertically */
+            width: 30%; /* Fixed width for label */
+            padding: 5px 0px;
+  
+          }
+          
+          .contact-form input[type=text], .contact-form textarea  {
+            width: 40%; /* Let the textarea expand to fill available space */
+            resize: vertical; /* Allow vertical resizing of the textarea */
+            display: inline-block;
+            margin: 2% 0;
+           padding: 5px 0px;
+          }
+          
+      /* Overlay Text Styles */
+      .overlay-text {
+        position: absolute;
+       top: 50%;
+        left: 50%;
+       transform: translate(-50%, -50%);
+       color: #fff;
+       }
+       
+       .overlay-text h2 {
+        font-size: 2em;
+        margin-bottom: 10px;
+       }
+       
+       .overlay-text button {
+       background-color: #6D4C41;
+        color: #fff;
+        padding: 10px 20px;
+        border: none;
+        cursor: pointer;
+        font-size: 1em;
+       }
+        }
          
           
          @media screen and  (min-width: 992px) {
+          header {
+            padding: 0 1rem;
+            justify-content: space-around;
+          }
+
+          nav{
+            display: block;
+            position: relative;  /* to put in back inside header*/
+            box-shadow: none;
+            width: fit-content;  /* So it doesnt take up all the header*/
+            padding-right: 1rem;
+        }
+    
+        #menu{
+            display: flex; /* puts links in a row */
+        }
+    
+        #menu > li {
+            padding-left: 1rem;
+        }
+    
+        .nav-toggle-label {
+            display: none;
+        }
+    
+    /* Services Section Styles */
+    #services {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      padding: 10px 20px 0px;
+      height: 300px;
+     }
+     
+     #services div {
+      text-align: center;
+     }
+     
+     #services img {
+      border-radius: 50%;
+      width: 200px;
+      height: 200px;
+      object-fit: cover;
+     }
+     
+     button {
+      margin: 20px;
+      background-color: #6D4C41;
+      color: #fff;
+      padding: 10px 20px;
+      border: none;
+      cursor: pointer;
+      display: block;
+      width: 200px;
+     }
+     
+     
+          .footer__top-section {
+            padding: 10px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: row;
+          
+          }
+          
+
+          
+          .footer__top-section>div {
+            margin: 8px 0;
+            text-align: center;
+            width: 48%;
+           
+          }
+          
+          
+          .contact-form {
+              margin-bottom: 0px; /* Adjust spacing between form groups */
+              flex-direction: column;
+              flex-wrap: wrap;
+              width: 90%;
+              text-align: left;
+              margin-left: 10%;
+              margin-right: 10%;
+            }
+            
+            .contact-form label {
+              /* Display labels as block elements to stack vertically */
+              width: 30%; /* Fixed width for label */
+              padding: 5px 0px;
+    
+    
+          
+              
+              
+              
+            }
+            
+            .contact-form input[type=text], .contact-form textarea  {
+              width: 40%; /* Let the textarea expand to fill available space */
+              resize: vertical; /* Allow vertical resizing of the textarea */
+              display: inline-block;
+              margin: 2% 0;
+             padding: 5px 0px;
+             
+              
+              
+             
+            }
+             
+    /* Overlay Text Styles */
+    .overlay-text {
+      position: absolute;
+     top: 50%;
+      left: 50%;
+     transform: translate(-50%, -50%);
+     color: #fff;
+     }
+     
+     .overlay-text h2 {
+      font-size: 2em;
+      margin-bottom: 10px;
+     }
+     
+     .overlay-text button {
+     background-color: #6D4C41;
+      color: #fff;
+      padding: 10px 20px;
+      border: none;
+      cursor: pointer;
+      font-size: 1em;
+     }
+        }
+         
+
+        @media screen and  (min-width: 1480px) {
           header {
             padding: 0 1rem;
             justify-content: space-around;
