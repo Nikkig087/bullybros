@@ -153,6 +153,10 @@ main {
 @media screen and (max-width: 600px) {
     /* Header */
    
+    header {
+      padding: 0 1rem;
+      justify-content: space-around;
+    }
     #home {
       height: 600px;
       width: 100%;
@@ -161,14 +165,50 @@ main {
     
     main {
       width: 100%;
+      padding: 0px;
       
     
     }
+
+    nav {
+      position: absolute; /*Absolute positioning takes an element outside the normal
+      flow of the page structure.
+      It is positioned relative to the nearest positioned ancestor
+      in our case, the header.*/
+  
+      background-color: #ffffff;
+      width: 100%;
+      left: 0;
+      padding: 0 10rem;
+      box-shadow: 0 2px 2px #3a3a3a;
+      display: none;
+      top: 100%; /*the top of the element should start at the bottom of its parent */
+  }
+  
+  /*Nav toggle */
+  
+  /* ~ indicates we want to target the adjoining element */
+  
+  #nav-toggle:checked~nav {
+      display: flex;
+  }
+  
+  /*remove checkbox*/
+  #nav-toggle{ 
+      display: none;
+  }
+  
+  .nav-toggle-label{
+      font-size: 2rem;
+      
+  }
+  
     
     
 
     #menu {
-        display: flex;
+       
+        padding-right: 20px;
     }
 
     #menu > li {
@@ -291,20 +331,35 @@ main {
     
     /* About, Boarding, Nutrition Section Styles */
     section {
-     padding: 10px;
+     padding: 30px;
     }
+    #about {
+
+      margin: 47px;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      padding-right: 40px;
+  
   }
+  }
+ 
     
     
 
 
     @media screen and (min-width:600px) and (max-width:768px)  {
+
+      header {
+        padding: 0 1rem;
+        justify-content: space-around;
+      }
       nav{
           display: block;
           position: relative;  /* to put in back inside header*/
           box-shadow: none;
           width: fit-content;  /* So it doesnt take up all the header*/
-          padding-right: 1rem;
+          padding-right: 2rem;
       }
   
       #menu{
@@ -424,6 +479,10 @@ main {
          
           
          @media screen and  (min-width: 992px) {
+          header {
+            padding: 0 1rem;
+            justify-content: space-around;
+          }
 
           nav{
             display: block;
