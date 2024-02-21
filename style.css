@@ -132,6 +132,14 @@ justify-content: space-between;
   flex-direction: column;
  }
 
+ section>h2 {
+  font-weight: bold;
+  text-align: center;
+  display: block;
+  padding: 20px;
+
+ }
+
 #grooming {
   padding: 10px;
   margin: 47px auto;
@@ -631,38 +639,43 @@ justify-content: space-between;
   
       
       /* Services Section Styles */ 
-      #services {
+      #services>.grooming,.boarding,.nutrition {
         display: flex;
-        justify-content: space-around;
-        align-items: center;
         
-        flex-direction: row;
+       }
+      
+       #services {
+        
+        display: flex;
+
        }
        
-       #services div {
-        text-align: center;
-       }
        
        #services img {
         border-radius: 50%;
-        width: 150px;
-        height: 150px;
+        width: 200px;
+        height: 200px;
         object-fit: cover;
+        margin-left: 10%;
+        
+        
         
        }
        
        button {
-        margin-top: 20px;
+        margin-top: 10px;
         background-color: #6D4C41;
         color: #fff;
-        padding: 10px 20px;
-        border: none;
+        padding: 5px 20px 5px 5px;
         cursor: pointer;
         display: block;
-        width: 150px;
+        width: 160px;
+        text-align: center;
+        line-height: 1.5em;
+        
        }
        
-       
+       */
         .footer__top-section {
           padding: 10px;
           margin: 0 auto;
