@@ -96,16 +96,22 @@ main {
 
 /*home */
 #hero {
-    height: 500px;
+    height: 600px;
     width: 100%;
-    background: url("hero-image.webp") no-repeat center center/cover;
+    background: url("hero.jpg") no-repeat center center/cover;
     position: relative;
 }
 
+
 #about {
-    width: 90%;
-    margin: 47px;
-    text-align: center;
+
+  margin: 47px 0;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  padding-right: 25%;
+  padding-left: 25%;
+  width: 100%;
 
 }
 /* Footer */
@@ -196,11 +202,14 @@ main {
  
     
     main {
+      background-color: bisque;
+      /* Make main element take up any surplus space to push footer down */
       
-      padding: 0px;
+      margin-top: 40px;
+      width: 100%;
       
-    
-    }
+      
+  }
 
     nav {
       position: absolute; /*Absolute positioning takes an element outside the normal
@@ -258,7 +267,7 @@ main {
      margin: 0;
 
      height: 600px;
-     background: url("hero-image.webp") no-repeat center center/cover;
+     background: url("hero.jpg") no-repeat center center/cover;
    
     }
     
@@ -289,11 +298,13 @@ main {
     
     #about {
 
-      margin: 47px auto;
+      margin: 47px 0;
       text-align: center;
       display: flex;
       flex-direction: column;
-      padding-right: 40px;
+      padding-right: 25%;
+      padding-left: 25%;
+      width: 100%;
   
   }
       /* Services Section Styles */
@@ -301,8 +312,9 @@ main {
         display: flex;
         justify-content: space-around;
         align-items: center;
-        padding: 20px;
-        height: 800px;
+        padding-left: 25%;
+        padding-right: 25%;
+        width: 100%;
         flex-direction: column;
        }
        
@@ -326,6 +338,8 @@ main {
         cursor: pointer;
         display: block;
         width: 200px;
+        margin-bottom: 10px;
+        
        }
           /* footer  */
           .footer__top-section {
@@ -388,7 +402,7 @@ main {
           position: relative;  /* to put in back inside header*/
           box-shadow: none;
           width: fit-content;  /* So it doesnt take up all the header*/
-          padding-right: 2rem;
+          /*padding-right: 2rem;*/
       }
   
       #menu{
@@ -542,8 +556,7 @@ main {
         display: flex;
         justify-content: space-around;
         align-items: center;
-        padding: 20px;
-        height: 260px;
+        
         flex-direction: row;
        }
        
@@ -553,9 +566,10 @@ main {
        
        #services img {
         border-radius: 50%;
-        width: 200px;
-        height: 200px;
+        width: 150px;
+        height: 150px;
         object-fit: cover;
+        
        }
        
        button {
@@ -566,7 +580,7 @@ main {
         border: none;
         cursor: pointer;
         display: block;
-        width: 200px;
+        width: 150px;
        }
        
        
