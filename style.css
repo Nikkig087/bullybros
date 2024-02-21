@@ -120,6 +120,18 @@ main {
 
 }
 
+.booking {
+display: flex;
+justify-content: space-between;
+  
+ }
+
+ #services>.grooming,.boarding,.nutrition {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+ }
+
 #grooming {
   padding: 10px;
   margin: 47px auto;
