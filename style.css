@@ -1,6 +1,10 @@
 /* Google fonts import */
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald:wght@200;300;400;500;600;700&display=swap');
 
+
+html,body{
+  overflow-x: hidden;
+}
 /* Asterisk wildcard selector to override default styles added by the browser */
 * {
     padding: 0;
@@ -170,6 +174,9 @@ main {
   display: flex; /*space our icons evenly along the footer */
   justify-content: space-evenly;
   list-style-type: none; /*gets rid of bullets beside icons */
+  flex-direction: row;
+
+
 }
 
 /* Font Awesom uses i class for icons so we need to style the icons so we target the i's that are direct desendants of the social-networks */
@@ -247,13 +254,14 @@ main {
       It is positioned relative to the nearest positioned ancestor
       in our case, the header.*/
   
-      background-color: #ffffff;
+      background-color: #8D6E63;
       width: 100%;
       left: 0;
-      padding: 0 10rem;
+      padding: 5px;
       box-shadow: 0 2px 2px #3a3a3a;
       display: none;
       top: 100%; /*the top of the element should start at the bottom of its parent */
+      font-weight: bold;
   }
   
   /*Nav toggle */
@@ -368,7 +376,8 @@ main {
         cursor: pointer;
         display: block;
         width: 200px;
-        margin-bottom: 10px;
+        margin-bottom: 40px;
+       
         
        }
 
@@ -422,6 +431,8 @@ main {
           width: 100%;
           text-align: left;
           margin-left: 10%;
+          margin-top: 10%;
+          
         }
   
         /*@media screen and (max-width: 768px) {*/
@@ -438,7 +449,7 @@ main {
             padding: 5px 0px;
            
           }
-  }
+  
  
     
     
@@ -488,15 +499,16 @@ main {
       text-align: center;
      }
      
-     #services img {
+     #services>img {
       border-radius: 50%;
       width: 200px;
       height: 200px;
       object-fit: cover;
+      margin-top: 20px;
      }
      
      button {
-      margin-top: 20px;
+      margin: 20px 50px 0px;
       background-color: #6D4C41;
       color: #fff;
       padding: 10px 20px;
@@ -526,6 +538,7 @@ main {
       }
       
       
+      
       .contact-form {
           margin-bottom: 0px; /* Adjust spacing between form groups */
           flex-direction: column;
@@ -534,6 +547,7 @@ main {
           text-align: left;
           margin-left: 10%;
           margin-right: 10%;
+          margin-top:10px ;
         }
         
         .contact-form label {
