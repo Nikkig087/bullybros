@@ -867,7 +867,7 @@ table#opening-hours {
   /* hero*/
   #hero {
     background: url("hero-desktop.jpg") no-repeat center/cover;
-    height: 700px;
+    height: 100vh;
    
 }
 
