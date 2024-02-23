@@ -64,7 +64,7 @@ h1 {
   border-bottom: 1px solid #3a3a3a;
 }
 
-/* Navbar styles  */
+/* Navbar styles  *
 nav {
   position: absolute;
   background-color: inherit;
@@ -76,7 +76,7 @@ nav {
   top: 100%;
 }
 
-/* Nav toggle */
+/* Nav toggle *
 #nav-toggle:checked~nav {
   display: block;
 }
@@ -89,17 +89,17 @@ nav {
   font-size: 2rem;
 }
 
-/* Main content */
+/* Main content *
 main {
   background-color: bisque;
-  /* Make main element take up any surplus space to push footer down */
+  /* Make main element take up any surplus space to push footer down *
   flex: 1 0 auto;
   margin-top: 40px;
   width: 100%;
   overflow: hidden;
 }
 
-/*Heoo */
+/*Hero *
 #hero {
   height: 600px;
   width: 100%;
@@ -121,13 +121,13 @@ main {
 
 }
 
-/*Services */
+/*Services *
 
 .booking {
   display: flex;
   justify-content: space-between;
 
-}
+}*/
 
 #services>.grooming,
 .boarding,
@@ -167,6 +167,7 @@ article>h2 {
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 
 }
+
 
 #grooming>div {
   width: 48%;
@@ -244,8 +245,9 @@ article>h2 {
 
 }
 
+
 #nutrition>#healthy-dog {
-  background: url("boarding.jpg") no-repeat center;
+  background: url("dog-eating.jpg") no-repeat center;
   
   width: 48%;
   height: 300px;
@@ -455,7 +457,7 @@ table#opening-hours {
     font-size: 1em;
   }
 
-  /* About, Boarding, Nutrition Section Styles */
+  /* About, Boarding, Nutrition Section Styles *
 
   #about {
 
@@ -514,6 +516,7 @@ table#opening-hours {
 
 
   }
+  
 
 
   #grooming-treatments li {
@@ -522,17 +525,13 @@ table#opening-hours {
     font-weight: bold;
 
   }
-
+/*Boarding */
   #boarding {
     display: flex;
     flex-direction: column;
     width: 100%;
 
-
   }
-
-
-
 
   #boarding>#dog-relaxing {
     background: url("boarding.jpg") no-repeat center;
@@ -551,6 +550,31 @@ table#opening-hours {
   
   }
   
+
+  /*Change to nutrition below */
+  #boarding {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+
+  }
+
+  #boarding>#dog-relaxing {
+    background: url("boarding.jpg") no-repeat center;
+    
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+  }
+  
+  #boarding-options li {
+    width: 100%;
+    text-align: justify;
+    padding: 10px 0px;
+    margin-left: 0%;
+    font-weight: bold;
+  
+  }
 
   article {
     padding: 10px 0px;
@@ -774,9 +798,34 @@ table#opening-hours {
     box-shadow: none;
     width: 100%;
     /* So it doesnt take up all the header*/
-    padding-right: 2rem;
+    padding: 0 0 0 5rem;
   }
 
+  /* Navbar styles  *
+nav {
+  position: absolute;
+  background-color: inherit;
+  width: 100%;
+  left: 0;
+  padding: 0 1rem;
+  box-shadow: 0 2px 2px #3a3a3a;
+  display: none;
+  top: 100%;
+}
+
+/* Nav toggle *
+#nav-toggle:checked~nav {
+  display: block;
+}*/
+
+#nav-toggle {
+  display: none;
+}
+/*
+.nav-toggle-label {
+  font-size: 2rem;
+}
+*/
   #menu {
     display: flex;
     /* puts links in a row */
@@ -789,6 +838,14 @@ table#opening-hours {
   .nav-toggle-label {
     display: none;
   }
+
+  /*Hero */
+#hero {
+  height: 600px;
+  width: 100%;
+  background: url("hero.jpg") no-repeat center center/cover;
+  position: relative;
+}
 
   /* Overlay Text Styles */
   .overlay-text {
@@ -863,16 +920,27 @@ table#opening-hours {
     line-height: 1.5em;
   }
 
-  #grooming {
+  /*#grooming {
     display: flex;
     justify-content: space-around;
     align-items: center;
-
-
     width: 100%;
     flex-direction: row;
     overflow: hidden;
     height: 400px;
+  }*/
+
+
+  #grooming {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    flex-direction: row;
+    overflow: hidden;
+    height: 400px;
+    vertical-align: top;
+  
   }
 
   #boarding {
@@ -1030,10 +1098,10 @@ table#opening-hours {
     cursor: pointer;
     font-size: 1em;
   }
-
+/*
   main {
     background-color: bisque;
-    /* Make main element take up any surplus space to push footer down */
+    /* Make main element take up any surplus space to push footer down *
 
     margin-top: 20px;
     height: 200px;
@@ -1041,6 +1109,15 @@ table#opening-hours {
     width: 100%;
 
 
+  }
+*/
+   main {
+    background-color: bisque;
+    /* Make main element take up any surplus space to push footer down */
+    flex: 1;
+    margin-top: 0px;
+    width: 100%;
+    overflow: hidden;
   }
 
 
@@ -1074,14 +1151,47 @@ table#opening-hours {
     display: block;
     width: 200px;
   }
+/*
+  #grooming {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    flex-direction: row;
+    overflow: hidden;
+    height: 400px;
+    
+  
+  }
 
+  */
 
+  #grooming article h2 {vertical-align: top;
+    padding: 0;
+  margin: 0;}
+  
+  #grooming>#grooming-treatments {
+   
+      width:50%;
+    flex: 1;
+    margin: 0;
+    font-size: large;
+  
+    }
+    #grooming>#dog-pampered {
+      background: url("dog-wash.jpg") no-repeat center;
+      margin-top: 50px;
+      width: 48%;
+      height: 300px;
+      object-fit: cover;
+    }
+/*
   #grooming>div {
    
     padding: 0;
     
-    height: 30vh;
-    margin-top: 100px;
+    height: 20vh;
+    margin-top: 10px;
     
   }
 
@@ -1099,7 +1209,7 @@ table#opening-hours {
     object-fit: cover;
   }
   
-
+*
   #boarding>div {
    
     padding: 0;
@@ -1122,7 +1232,52 @@ table#opening-hours {
     height: 300px;
     object-fit: cover;
   }
+
+  */
+
+  /*Boarding*/
+  #boarding article h2 {vertical-align: top;
+    padding: 0;
+  margin: 0;}
   
+  #boarding>#boarding-options {
+   
+      width:50%;
+    flex: 1;
+    margin: 0;
+    font-size: large;
+  
+    }
+    #boarding>#dog-relaxing {
+      background: url("boarding.jpg") no-repeat center;
+      margin-top: 50px;
+      width: 48%;
+      height: 300px;
+      object-fit: cover;
+    }
+  
+  /*Nutrition*/
+  #nutrition article h2 {vertical-align: top;
+    padding: 0;
+  margin: 0;}
+  
+  #nutrition>#nutrition-advice {
+   
+      width:50%;
+    flex: 1;
+    margin: 0;
+    font-size: large;
+  
+    }
+    #nutrition>#healthy-dog {
+      background: url("dog-eating.jpg") no-repeat center;
+      margin-top: 50px;
+      width: 48%;
+      height: 300px;
+      object-fit: cover;
+    }
+  
+/*
   #nutrition {
     display: flex;
     justify-content: space-around;
@@ -1137,7 +1292,7 @@ table#opening-hours {
   
   }
 
-
+*/
 #nutrition article h2 {vertical-align: top;
 padding: 0;
 margin: 0;}
@@ -1149,6 +1304,7 @@ margin: 0;
 font-size: large;
 
 }
+/*
 #nutrition>#healthy-dog {
   background: url("nutrition.jpg") no-repeat center;
   margin-top: 100px;
@@ -1305,13 +1461,11 @@ font-size: large;
     width: 200px;
   }
 
-  /*Grooming */
+  /*Grooming *
   #grooming {
     display: flex;
     justify-content: space-around;
     align-items: center;
-
-
     width: 100%;
     flex-direction: row;
     overflow: hidden;
@@ -1355,7 +1509,7 @@ font-size: large;
     
     }
   
-
+/*
   #boarding article h2 {vertical-align: top;
   padding: 0;
 margin: 0;}
