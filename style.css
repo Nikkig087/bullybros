@@ -155,6 +155,8 @@ section>h2 {
 
 }
 
+
+
 article>h2 {
   font-weight: bolder;
   text-align: center;
@@ -172,6 +174,7 @@ article>h2 {
 
 }
 
+
 #grooming>#dog-pampered {
   background: url("dog-wash.jpg") no-repeat center;
   padding: 10%;
@@ -179,6 +182,8 @@ article>h2 {
   height: 300px;
   object-fit: cover;
 }
+
+
 
 
 #grooming-treatments li {
@@ -190,9 +195,41 @@ article>h2 {
 
 }
 
+#boarding {
+  margin: 47px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+
+}
+
+#boarding>div {
+  width: 48%;
+  text-align: center;
+
+}
+
+#boarding>#dog-relaxing {
+  background: url("boarding.jpg") no-repeat center;
+  
+  width: 48%;
+  height: 300px;
+  object-fit: cover;
+}
+
+#boarding-options li {
+  width: 100%;
+  text-align: justify;
+  padding: 10px 0px;
+  margin-left: 30%;
+  font-weight: bold;
+
+}
+
 
 /* Footer */
-.footer__top-section {
+.footer-section {
   padding: 10px;
   margin: 0 auto;
   display: flex;
@@ -203,7 +240,7 @@ article>h2 {
 }
 
 
-.footer__top-section>div {
+.footer-section>div {
   margin: 8px 0;
   text-align: center;
   width: 48%;
@@ -452,12 +489,41 @@ table#opening-hours {
 
   }
 
+  #boarding {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+
+
+  }
+
+
+
+
+  #boarding>#dog-relaxing {
+    background: url("boarding.jpg") no-repeat center;
+    
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+  }
+  
+  #boarding-options li {
+    width: 100%;
+    text-align: justify;
+    padding: 10px 0px;
+    margin-left: 0%;
+    font-weight: bold;
+  
+  }
+  
+
   article {
     padding: 10px 0px;
   }
 
   /* footer  */
-  .footer__top-section {
+  .footer-section {
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
@@ -466,7 +532,7 @@ table#opening-hours {
 
   }
 
-  .footer__top-section>div {
+  .footer-section>div {
     margin: 8px 0;
     text-align: center;
     width: 100%;
@@ -604,7 +670,7 @@ table#opening-hours {
   }
 
 
-  .footer__top-section {
+  .footer-section {
     padding: 10px;
     margin: 0 auto;
     display: flex;
@@ -615,7 +681,7 @@ table#opening-hours {
   }
 
 
-  .footer__top-section>div {
+  .footer-section>div {
     margin: 8px 0;
     text-align: center;
     width: 48%;
@@ -767,18 +833,36 @@ table#opening-hours {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    margin:5% 10%;
-    padding: 10%;
+
 
     width: 100%;
     flex-direction: row;
     overflow: hidden;
-    height: 200px;
+    height: 400px;
   }
 
+  #boarding {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 
 
-  .footer__top-section {
+    width: 100%;
+    flex-direction: row;
+    overflow: hidden;
+    height: 400px;
+  }
+
+  #boarding>#boarding-options {
+    width:50%;
+  flex: 1;
+  
+  }
+  
+
+
+
+  .footer-section {
     padding: 10px;
     margin: 0 auto;
     display: flex;
@@ -789,10 +873,10 @@ table#opening-hours {
   }
 
 
-  .footer__top-section>div {
+  .footer-section>#company-info {
     margin: 8px 0;
-    text-align: center;
-    width: 48%;
+    text-align: left;
+    width: 45%;
 
   }
 
@@ -806,6 +890,7 @@ table#opening-hours {
     text-align: left;
     margin-left: 10%;
     margin-right: 10%;
+    
   }
 
   .contact-form label {
@@ -824,7 +909,7 @@ table#opening-hours {
     /* Allow vertical resizing of the textarea */
     display: inline-block;
     margin: 2% 0;
-    padding: 5px 0px;
+    padding: 1px ;
   }
 
 
@@ -894,6 +979,19 @@ table#opening-hours {
     font-size: 1em;
   }
 
+  main {
+    background-color: bisque;
+    /* Make main element take up any surplus space to push footer down */
+
+    margin-top: 20px;
+    height: 200px;
+
+    width: 100%;
+
+
+  }
+
+
   /* Services Section Styles */
   #services {
     display: flex;
@@ -925,15 +1023,57 @@ table#opening-hours {
     width: 200px;
   }
 
-  #grooming {
+
+  #grooming>div {
    
-    padding: 10%;
-    width: 100%;
-    height: 400px;
+    padding: 0;
+    
+    height: 30vh;
+    margin-top: 100px;
     
   }
 
-  .footer__top-section {
+  #grooming>#grooming-treatments {
+    width:50%;
+  flex: 1;
+  
+  }
+
+  #grooming>#dog-pampered {
+    background: url("boarding.jpg") no-repeat center;
+    
+    width: 48%;
+    height: 300px;
+    object-fit: cover;
+  }
+  
+
+  #boarding>div {
+   
+    padding: 0;
+    
+    height: 30vh;
+    margin-top: 100px;
+    
+  }
+
+  #boarding>#boarding-options {
+    width:50%;
+  flex: 1;
+  
+  }
+
+  #boarding>#dog-relaxing {
+    background: url("boarding.jpg") no-repeat center;
+    
+    width: 48%;
+    height: 300px;
+    object-fit: cover;
+  }
+  
+
+
+  .footer-section {
     padding: 10px;
     margin: 0 auto;
     display: flex;
@@ -945,10 +1085,10 @@ table#opening-hours {
 
 
 
-  .footer__top-section>div {
+  .footer-section>#company-info {
     margin: 8px 0;
-    text-align: center;
-    width: 48%;
+    text-align: left;
+    width: 80%;
 
   }
 
@@ -958,28 +1098,31 @@ table#opening-hours {
     /* Adjust spacing between form groups */
     flex-direction: column;
     flex-wrap: wrap;
-    width: 90%;
+    width: 100%;
     text-align: left;
-    margin-left: 10%;
+    margin-left: 0%;
     margin-right: 10%;
+    display: block;
   }
 
   .contact-form label {
     /* Display labels as block elements to stack vertically */
-    width: 30%;
+    width: 20%;
     /* Fixed width for label */
-    padding: 5px 0px;
+    padding: 0px 0px;
+    vertical-align: top;
+    
   }
 
   .contact-form input[type=text],
   .contact-form textarea {
-    width: 40%;
+    width: 60%;
     /* Let the textarea expand to fill available space */
     resize: vertical;
     /* Allow vertical resizing of the textarea */
     display: inline-block;
-    margin: 2% 0;
-    padding: 5px 0px;
+    margin: 1% 0;
+    padding: 2px 0px 0px 5px;
   }
 
 
@@ -1077,8 +1220,78 @@ table#opening-hours {
     width: 200px;
   }
 
+  /*Grooming */
+  #grooming {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 
-  .footer__top-section {
+
+    width: 100%;
+    flex-direction: row;
+    overflow: hidden;
+    height: 300px;
+    vertical-align: top;
+  
+  }
+  
+  #grooming article h2 {vertical-align: top;
+    padding: 0;
+  margin: 0;}
+  
+    #grooming>#grooming-treatments{
+      width:50%;
+    flex: 1;
+    margin: 0;
+    font-size: large;
+  
+    }
+    #grooming>#dog-pampered {
+      background: url("dog-wash.jpg") no-repeat center;
+      margin-top: 50px;
+      width: 48%;
+      height: 300px;
+      object-fit: cover;
+    }
+
+    /*Boarding*/
+
+    #boarding {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+  
+  
+      width: 100%;
+      flex-direction: row;
+      overflow: hidden;
+      height: 300px;
+      vertical-align: top;
+    
+    }
+  
+
+  #boarding article h2 {vertical-align: top;
+  padding: 0;
+margin: 0;}
+
+  #boarding>#boarding-options {
+    width:50%;
+  flex: 1;
+  margin: 0;
+  font-size: large;
+
+  }
+  #boarding>#dog-relaxing {
+    background: url("boarding.jpg") no-repeat center;
+    margin-top: 50px;
+    width: 48%;
+    height: 300px;
+    object-fit: cover;
+  }
+
+
+  .footer-section {
     padding: 10px;
     margin: 0 auto;
     display: flex;
@@ -1090,7 +1303,7 @@ table#opening-hours {
 
 
 
-  .footer__top-section>div {
+  .footer-section>div {
     margin: 8px 0;
     text-align: center;
     width: 48%;
