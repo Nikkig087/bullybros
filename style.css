@@ -860,6 +860,24 @@ table#opening-hours {
   }
   
 
+  #nutrition {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+
+    width: 100%;
+    flex-direction: row;
+    overflow: hidden;
+    height: 400px;
+  }
+
+  #nutrition>#nutrition-advice {
+    width:50%;
+  flex: 1;
+  
+  }
+  
 
 
   .footer-section {
@@ -1071,6 +1089,39 @@ table#opening-hours {
     object-fit: cover;
   }
   
+  #nutrition {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+
+    width: 100%;
+    flex-direction: row;
+    overflow: hidden;
+    height: 300px;
+    vertical-align: top;
+  
+  }
+
+
+#nutrition article h2 {vertical-align: top;
+padding: 0;
+margin: 0;}
+
+#nutrition>#nutrition-advice {
+  width:50%;
+flex: 1;
+margin: 0;
+font-size: large;
+
+}
+#nutrition>#healthy-dog {
+  background: url("nutrition.jpg") no-repeat center;
+  margin-top: 100px;
+  width: 48%;
+  height: 600px;
+  object-fit: cover;
+}
 
 
   .footer-section {
@@ -1290,7 +1341,42 @@ margin: 0;}
     object-fit: cover;
   }
 
+  /*Nutrition */
+  
+  #nutrition {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 
+
+    width: 100%;
+    flex-direction: row;
+    overflow: hidden;
+    height: 300px;
+    vertical-align: top;
+  
+  }
+
+
+#nutrition article h2 {vertical-align: top;
+padding: 0;
+margin: 0;}
+
+#nutrition>#nutrition-advice {
+  width:50%;
+flex: 1;
+margin: 0;
+font-size: large;
+
+}
+#nutrition>#healthy-dog {
+  background: url("nutrition.jpg") no-repeat center;
+  margin-top: 50px;
+  width: 48%;
+  height: 300px;
+  object-fit: cover;
+}
+/*footer*/
   .footer-section {
     padding: 10px;
     margin: 0 auto;
