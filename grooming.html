@@ -7,9 +7,10 @@
   <title>Dog Care Hub</title>
   <link rel="stylesheet" href="style.css">
   <!--favicon-->
-  <link rel="icon" type="img/jpg" sizes="180x180" href="hero180.JPG"> <!--Change these images-->
-  <link rel="icon" type="img/jpg" sizes="32x32" href="signup-image.webp">
-  <link rel="icon" type="img/png" sizes="16x16" href="signup-image.webp">
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
 </head>
 
 <body>
@@ -91,104 +92,103 @@
 
  
   
+  <footer>
+    <!-- logo with website title  -->
+    <div class="footer__top-section">
+        <div>
+            <h2 id="hours">Opening Hours</h2>
+            <table id="opening-hours">
+              <tr>
+                <th>Day</th>
+                <th>Hours</th>
+              <tr>
+                <td>Mon</td>
+                <td>09:00 - 18:00</td>
+              </tr>
+              <tr>
+                <td>Tue</td>
+                <td>09:00 - 18:00</td>
+              </tr>
+              <tr>
+                <td>Wed</td>
+                <td>09:00 - 18:00</td>
+              </tr>
+              <tr>
+                <td>Thur</td>
+                <td>09:00 - 18:00</td>
+              </tr>
+              <tr>
+                <td>Fri</td>
+                <td>09:00 - 18:00</td>
+              </tr>
+              <tr>
+                <td>Sat</td>
+                <td>09:00 - 18:00</td>
+              </tr>
+              <tr>
+                <td>Sun</td>
+                <td>Closed</td>
+              </tr>
 
-      <footer>
-        <!-- logo with website title  -->
-        <div class="footer__top-section">
-            <div>
-                <h2 id="hours">Opening Hours</h2>
-                <table id="opening-hours">
-                  <tr>
-                    <th>Day</th>
-                    <th>Hours</th>
-                  <tr>
-                    <td>Mon</th>
-                    <th>09:00 - 18:00</th>
-                  </tr>
-                  <tr>
-                    <td>Tue</th>
-                    <th>09:00 - 18:00</th>
-                  </tr>
-                  <tr>
-                    <td>Wed</th>
-                    <th>09:00 - 18:00</th>
-                  </tr>
-                  <tr>
-                    <td>Thur</th>
-                    <th>09:00 - 18:00</th>
-                  </tr>
-                  <tr>
-                    <td>Fri</th>
-                    <th>09:00 - 18:00</th>
-                  </tr>
-                  <tr>
-                    <td>Sat</th>
-                    <th>09:00 - 18:00</th>
-                  </tr>
-                  <tr>
-                    <td>Sun</th>
-                    <th>Closed</th>
-                  </tr>
+            </table>
 
-                </table>
-
-
-          
-                
-            </div>
-            <!-- important links  -->
-            <div>
-              <!-- Contact Form -->
-          <form action="submit_form.php" method="post" >
-            <div class="contact-form contact-mobile">
-            <label for="fname">First Name:</label>
-              <input type="text" id="fname" name="fname" class="text-input" required> 
-
-            <label for="lname">Last Name:</label>
-            <input type="text" id="lname" name="lname" class="text-input" required>
-
-            <label for="query">Query:</label>
-            <textarea id="query" name="query" class="text-input" required></textarea>
-              <br>
-            <button type="submit" class="submit_form">Submit</button>
-          </div>
-          </form>
-            </div>
-        </div>
-        <section>
-          <div >
-            <ul id="social-networks">
-              <li>
-                  <a href="https://www.facebook.com/" target="_blank" rel="noopener"
-                      aria-label="Visit our Facebook page (opens in a new tab)"><i class="fa-brands fa-facebook"></i></a>
-                  <!--target blank makes it open in a new tab, aria-labels make the icon compatable with screen readers-->
-  
-              </li>
-              <li>
-              <a href="https://www.twitter.com/" target="_blank" rel="noopener"
-                  aria-label="Visit our Twitter page (opens in a new tab)"><i class="fa-brands fa-twitter"></i></a>
-              <!--target blank makes it open in a new tab, aria-labels make the icon compatable with screen readers-->
-  
-              </li>
-  
-              <li>
-              <a href="https://www.instagram.com/" target="_blank" rel="noopener"
-                  aria-label="Visit our Instagram page (opens in a new tab)"><i class="fa-brands fa-instagram"></i></a>
-              <!--target blank makes it open in a new tab, aria-labels make the icon compatable with screen readers-->
-  
-              </li>
-  
-              <li>
-                  <a href="https://www.youtube.com/" target="_blank" rel="noopener"
-                      aria-label="Visit our Youtube page (opens in a new tab)"><i class="fa-brands fa-youtube"></i></i></a>
-                  <!--target blank makes it open in a new tab, aria-labels make the icon compatable with screen readers-->
       
-                  </li>
-          </ul>
-          </div>
-        </section>
+            
+        </div>
+        <!-- important links  -->
+        <div>
+          <!-- Contact Form -->
+      <form action="submit_form.php" method="post" >
+        <div class="contact-form contact-mobile">
+        <label for="name">Name:</label>
+          <input type="text" id="name" name="name" class="text-input" required> 
+
+        <label for="lname">Phone:</label>
+        <input type="text" id="phone" name="phone" class="text-input" required>
+
+        <label for="query">Query:</label>
+        <textarea id="query" name="query" class="text-input" required></textarea>
+          <br>
+        <button type="submit" class="submit_form">Submit</button>
+      </div>
+      </form>
+        </div>
+    </div>
     
-  </footer>
+    
+      <div>
+        <ul id="social-networks">
+          <li>
+              <a href="https://www.facebook.com/" target="_blank" rel="noopener"
+                  aria-label="Visit our Facebook page (opens in a new tab)"><i class="fa-brands fa-facebook"></i></a>
+              <!--target blank makes it open in a new tab, aria-labels make the icon compatable with screen readers-->
+
+          </li>
+          <li>
+          <a href="https://www.twitter.com/" target="_blank" rel="noopener"
+              aria-label="Visit our Twitter page (opens in a new tab)"><i class="fa-brands fa-twitter"></i></a>
+          <!--target blank makes it open in a new tab, aria-labels make the icon compatable with screen readers-->
+
+          </li>
+
+          <li>
+          <a href="https://www.instagram.com/" target="_blank" rel="noopener"
+              aria-label="Visit our Instagram page (opens in a new tab)"><i class="fa-brands fa-instagram"></i></a>
+          <!--target blank makes it open in a new tab, aria-labels make the icon compatable with screen readers-->
+
+          </li>
+
+          <li>
+              <a href="https://www.youtube.com/" target="_blank" rel="noopener"
+                  aria-label="Visit our Youtube page (opens in a new tab)"><i class="fa-brands fa-youtube"></i></a>
+              <!--target blank makes it open in a new tab, aria-labels make the icon compatable with screen readers-->
+  
+              </li>
+      </ul>
+      </div>
+    
+
+</footer>
 
  
   <!--Font Awesom-->
