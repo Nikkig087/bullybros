@@ -1,6 +1,5 @@
 /* Google fonts import */
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald:wght@200;300;400;500;600;700&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald:wght@200;300;400;500;600;700&display=swap");
 
 html,
 body {
@@ -21,13 +20,13 @@ body {
   flex-direction: column;
   /* Generic project styles */
   color: #3a3a3a;
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
   width: 100%;
 }
 
 /* Header */
 header {
-  background-color: #8D6E63;
+  background-color: #8d6e63;
   /*padding: 0 1rem;*/
   position: fixed;
   z-index: 99;
@@ -44,7 +43,7 @@ header a {
 }
 
 h1 {
-  font-family: 'Oswald', sans-serif;
+  font-family: "Oswald", sans-serif;
   text-transform: uppercase;
   letter-spacing: 2px;
   color: #252525;
@@ -56,7 +55,7 @@ h1 {
   list-style-type: none;
 }
 
-#menu>li {
+#menu > li {
   margin-bottom: 1em;
 }
 
@@ -110,7 +109,6 @@ main {
 
 /* About Section */
 #about {
-
   margin: 47px 0;
   text-align: center;
   display: flex;
@@ -118,7 +116,6 @@ main {
   padding-right: 25%;
   padding-left: 25%;
   width: 100%;
-
 }
 
 /*Services *
@@ -129,7 +126,7 @@ main {
 
 }*/
 
-#services>.grooming,
+#services > .grooming,
 .boarding,
 .nutrition {
   display: flex;
@@ -137,13 +134,12 @@ main {
   flex-direction: column;
 }
 
-section>h2 {
+section > h2 {
   font-weight: bold;
   text-align: center;
   display: block;
   padding: 10px;
   font-size: x-large;
-
 }
 
 #grooming {
@@ -152,31 +148,25 @@ section>h2 {
   justify-content: center;
   align-items: center;
   flex-direction: row;
-
 }
 
-
-
-article>h2 {
+article > h2 {
   font-weight: bolder;
   text-align: center;
   display: block;
   padding: 5%;
   font-size: x-large;
   font-style: italic;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 
-
-#grooming>div {
+#grooming > div {
   width: 48%;
   text-align: center;
-
 }
 
-
-#grooming>#dog-pampered {
+#grooming > #dog-pampered {
   background: url("dog-wash.jpg") no-repeat center;
   padding: 10%;
   width: 100%;
@@ -184,16 +174,12 @@ article>h2 {
   object-fit: cover;
 }
 
-
-
-
 #grooming-treatments li {
   width: 100%;
   text-align: justify;
   padding: 10px 0px;
   margin-left: 30%;
   font-weight: bold;
-
 }
 
 #boarding {
@@ -202,18 +188,16 @@ article>h2 {
   justify-content: center;
   align-items: center;
   flex-direction: row;
-
 }
 
-#boarding>div {
+#boarding > div {
   width: 48%;
   text-align: center;
-
 }
 
-#boarding>#dog-relaxing {
+#boarding > #dog-relaxing {
   background: url("boarding.jpg") no-repeat center;
-  
+
   width: 48%;
   height: 300px;
   object-fit: cover;
@@ -225,7 +209,6 @@ article>h2 {
   padding: 10px 0px;
   margin-left: 30%;
   font-weight: bold;
-
 }
 
 /*Nutrition*/
@@ -236,19 +219,16 @@ article>h2 {
   justify-content: center;
   align-items: center;
   flex-direction: row;
-
 }
 
-#nutrition>div {
+#nutrition > div {
   width: 48%;
   text-align: center;
-
 }
 
-
-#nutrition>#healthy-dog {
+#nutrition > #healthy-dog {
   background: url("dog-eating.jpg") no-repeat center;
-  
+
   width: 48%;
   height: 300px;
   object-fit: cover;
@@ -260,9 +240,7 @@ article>h2 {
   padding: 10px 0px;
   margin-left: 30%;
   font-weight: bold;
-
 }
-
 
 /* Footer */
 .footer-section {
@@ -272,18 +250,13 @@ article>h2 {
   justify-content: center;
   align-items: center;
   flex-direction: row;
-
 }
 
-
-.footer-section>div {
+.footer-section > div {
   margin: 8px 0;
   text-align: center;
   width: 48%;
-
 }
-
-
 
 /*Soclal Networks*/
 #social-networks {
@@ -297,8 +270,6 @@ article>h2 {
   list-style-type: none;
   /*gets rid of bullets beside icons */
   flex-direction: row;
-
-
 }
 
 /* Font Awesom uses i class for icons so we need to style the icons so we target the i's that are direct desendants of the social-networks */
@@ -307,7 +278,6 @@ article>h2 {
   font-size: 160%;
   padding: 5%;
   color: #3a3a3a;
-
 }
 
 .contact-form {
@@ -325,24 +295,19 @@ article>h2 {
   /* Display labels as block elements to stack vertically */
   width: 30%;
   /* Fixed width for label */
-
 }
 
-.contact-form input[type=text] textarea {
+.contact-form input[type="text"] textarea {
   width: 40%;
   /* Let the textarea expand to fill available space */
   resize: vertical;
   /* Allow vertical resizing of the textarea */
-
 }
-
-
 
 table#opening-hours {
   width: 50%;
   margin-left: 25%;
   margin-right: 25%;
-
 }
 
 #hours {
@@ -350,11 +315,6 @@ table#opening-hours {
   margin-left: 25%;
   margin-right: 25%;
 }
-
-
-
-
-
 
 @media screen and (max-width: 600px) {
   /* Header */
@@ -364,7 +324,6 @@ table#opening-hours {
     justify-content: space-around;
   }
 
-
   main {
     background-color: bisque;
     /* Make main element take up any surplus space to push footer down */
@@ -372,15 +331,13 @@ table#opening-hours {
     margin-top: 40px;
 
     width: 100%;
-
-
   }
 
   /*nav */
   nav {
     position: absolute;
 
-    background-color: #8D6E63;
+    background-color: #8d6e63;
     width: 100%;
     left: 0;
     padding: 5px;
@@ -391,9 +348,7 @@ table#opening-hours {
     font-weight: bold;
   }
 
-
-
-  #nav-toggle:checked~nav {
+  #nav-toggle:checked ~ nav {
     display: flex;
   }
 
@@ -404,15 +359,13 @@ table#opening-hours {
 
   .nav-toggle-label {
     font-size: 2rem;
-
   }
 
   #menu {
-
     padding-right: 20px;
   }
 
-  #menu>li {
+  #menu > li {
     padding-left: 1rem;
   }
 
@@ -431,7 +384,6 @@ table#opening-hours {
 
     height: 600px;
     background: url("hero.jpg") no-repeat center center/cover;
-
   }
 
   /* Overlay Text Styles */
@@ -449,7 +401,7 @@ table#opening-hours {
   }
 
   .overlay-text button {
-    background-color: #6D4C41;
+    background-color: #6d4c41;
     color: #fff;
     padding: 10px 20px;
     border: none;
@@ -495,7 +447,7 @@ table#opening-hours {
 
   button {
     margin-top: 20px;
-    background-color: #6D4C41;
+    background-color: #6d4c41;
     color: #fff;
     padding: 10px 20px;
     border: none;
@@ -503,8 +455,6 @@ table#opening-hours {
     display: block;
     width: 200px;
     margin-bottom: 40px;
-
-
   }
 
   /* grooming  */
@@ -513,67 +463,57 @@ table#opening-hours {
     display: flex;
     flex-direction: column;
     width: 100%;
-
-
   }
-  
-
 
   #grooming-treatments li {
     padding: 10px 0px;
     margin-left: 0%;
     font-weight: bold;
-
   }
-/*Boarding */
+  /*Boarding */
   #boarding {
     display: flex;
     flex-direction: column;
     width: 100%;
-
   }
 
-  #boarding>#dog-relaxing {
+  #boarding > #dog-relaxing {
     background: url("boarding.jpg") no-repeat center;
-    
+
     width: 100%;
     height: 300px;
     object-fit: cover;
   }
-  
+
   #boarding-options li {
     width: 100%;
     text-align: justify;
     padding: 10px 0px;
     margin-left: 0%;
     font-weight: bold;
-  
   }
-  
 
-  /*Change to nutrition below */
-  #boarding {
+  /*Nutrition */
+  #nutrition {
     display: flex;
     flex-direction: column;
     width: 100%;
-
   }
 
-  #boarding>#dog-relaxing {
-    background: url("boarding.jpg") no-repeat center;
-    
+  #nutrition > #healthy-dog {
+    background: url("dog-eating.jpg") no-repeat center;
+
     width: 100%;
     height: 300px;
     object-fit: cover;
   }
-  
-  #boarding-options li {
+
+  #nutrition-advice li {
     width: 100%;
     text-align: justify;
     padding: 10px 0px;
     margin-left: 0%;
     font-weight: bold;
-  
   }
 
   article {
@@ -586,15 +526,12 @@ table#opening-hours {
     justify-content: space-around;
     align-items: center;
     width: 100%;
-
-
   }
 
-  .footer-section>div {
+  .footer-section > div {
     margin: 8px 0;
     text-align: center;
     width: 100%;
-
   }
 
   .footer__buttom-section p {
@@ -610,9 +547,7 @@ table#opening-hours {
     text-align: left;
     margin-left: 10%;
     margin-top: 10%;
-
   }
-
 
   .contact-form label {
     width: 40%;
@@ -620,7 +555,7 @@ table#opening-hours {
     display: inline-block;
   }
 
-  .contact-form input[type=text],
+  .contact-form input[type="text"],
   .contact-form textarea {
     width: 40%;
     /* Let the textarea expand to fill available space */
@@ -629,13 +564,10 @@ table#opening-hours {
     display: inline-block;
     margin: 2% 0;
     padding: 5px 0px;
-
   }
 }
 
-
-@media screen and (min-width:600px) {
-
+@media screen and (min-width: 600px) {
   /*Header */
 
   header {
@@ -659,7 +591,7 @@ table#opening-hours {
     /* puts links in a row */
   }
 
-  #menu>li {
+  #menu > li {
     padding-left: 1rem;
   }
 
@@ -682,15 +614,13 @@ table#opening-hours {
   }
 
   .overlay-text button {
-    background-color: #6D4C41;
+    background-color: #6d4c41;
     color: #fff;
     padding: 10px 20px;
     border: none;
     cursor: pointer;
     font-size: 1em;
   }
-
-
 
   /* Services Section Styles */
   #services {
@@ -702,13 +632,11 @@ table#opening-hours {
     flex-direction: row;
   }
 
-
-
   #services div {
     text-align: center;
   }
 
-  #services>img {
+  #services > img {
     border-radius: 50%;
     width: 200px;
     height: 200px;
@@ -718,7 +646,7 @@ table#opening-hours {
 
   button {
     margin: 20px 50px 0px;
-    background-color: #6D4C41;
+    background-color: #6d4c41;
     color: #fff;
     padding: 10px 20px;
     border: none;
@@ -727,7 +655,6 @@ table#opening-hours {
     width: 200px;
   }
 
-
   .footer-section {
     padding: 10px;
     margin: 0 auto;
@@ -735,18 +662,13 @@ table#opening-hours {
     justify-content: center;
     align-items: center;
     flex-direction: row;
-
   }
 
-
-  .footer-section>div {
+  .footer-section > div {
     margin: 8px 0;
     text-align: center;
     width: 48%;
-
   }
-
-
 
   .contact-form {
     margin-bottom: 0px;
@@ -765,10 +687,9 @@ table#opening-hours {
     width: 30%;
     /* Fixed width for label */
     padding: 5px 0px;
-
   }
 
-  .contact-form input[type=text],
+  .contact-form input[type="text"],
   .contact-form textarea {
     width: 40%;
     /* Let the textarea expand to fill available space */
@@ -778,12 +699,9 @@ table#opening-hours {
     margin: 2% 0;
     padding: 5px 0px;
   }
-
-
 }
 
-@media screen and (min-width:768px) {
-
+@media screen and (min-width: 768px) {
   /* Header */
   header {
     padding: 0 1rem;
@@ -818,10 +736,10 @@ nav {
   display: block;
 }*/
 
-#nav-toggle {
-  display: none;
-}
-/*
+  #nav-toggle {
+    display: none;
+  }
+  /*
 .nav-toggle-label {
   font-size: 2rem;
 }
@@ -831,7 +749,7 @@ nav {
     /* puts links in a row */
   }
 
-  #menu>li {
+  #menu > li {
     padding-left: 1rem;
   }
 
@@ -840,12 +758,12 @@ nav {
   }
 
   /*Hero */
-#hero {
-  height: 600px;
-  width: 100%;
-  background: url("hero.jpg") no-repeat center center/cover;
-  position: relative;
-}
+  #hero {
+    height: 600px;
+    width: 100%;
+    background: url("hero.jpg") no-repeat center center/cover;
+    position: relative;
+  }
 
   /* Overlay Text Styles */
   .overlay-text {
@@ -862,7 +780,7 @@ nav {
   }
 
   .overlay-text button {
-    background-color: #6D4C41;
+    background-color: #6d4c41;
     color: #fff;
     padding: 10px 20px;
     border: none;
@@ -879,23 +797,16 @@ nav {
     overflow: hidden;
   }
 
-
-
-
   /* Services Section Styles */
-  #services>.grooming,
+  #services > .grooming,
   .boarding,
   .nutrition {
     display: flex;
-
   }
 
   #services {
-
     display: flex;
-
   }
-
 
   #services img {
     border-radius: 50%;
@@ -903,14 +814,11 @@ nav {
     height: 200px;
     object-fit: cover;
     margin-left: 10%;
-
-
-
   }
 
   button {
     margin-top: 10px;
-    background-color: #6D4C41;
+    background-color: #6d4c41;
     color: #fff;
     padding: 5px 20px 5px 5px;
     cursor: pointer;
@@ -930,7 +838,6 @@ nav {
     height: 400px;
   }*/
 
-
   #grooming {
     display: flex;
     justify-content: space-around;
@@ -940,7 +847,6 @@ nav {
     overflow: hidden;
     height: 400px;
     vertical-align: top;
-  
   }
 
   #boarding {
@@ -948,39 +854,32 @@ nav {
     justify-content: space-around;
     align-items: center;
 
-
     width: 100%;
     flex-direction: row;
     overflow: hidden;
     height: 400px;
   }
 
-  #boarding>#boarding-options {
-    width:50%;
-  flex: 1;
-  
+  #boarding > #boarding-options {
+    width: 50%;
+    flex: 1;
   }
-  
 
   #nutrition {
     display: flex;
     justify-content: space-around;
     align-items: center;
 
-
     width: 100%;
     flex-direction: row;
     overflow: hidden;
     height: 400px;
   }
 
-  #nutrition>#nutrition-advice {
-    width:50%;
-  flex: 1;
-  
+  #nutrition > #nutrition-advice {
+    width: 50%;
+    flex: 1;
   }
-  
-
 
   .footer-section {
     padding: 10px;
@@ -989,17 +888,13 @@ nav {
     justify-content: center;
     align-items: center;
     flex-direction: row;
-
   }
 
-
-  .footer-section>#company-info {
+  .footer-section > #company-info {
     margin: 8px 0;
     text-align: left;
     width: 45%;
-
   }
-
 
   .contact-form {
     margin-bottom: 0px;
@@ -1010,7 +905,6 @@ nav {
     text-align: left;
     margin-left: 10%;
     margin-right: 10%;
-    
   }
 
   .contact-form label {
@@ -1018,10 +912,9 @@ nav {
     width: 30%;
     /* Fixed width for label */
     padding: 5px 0px;
-
   }
 
-  .contact-form input[type=text],
+  .contact-form input[type="text"],
   .contact-form textarea {
     width: 40%;
     /* Let the textarea expand to fill available space */
@@ -1029,15 +922,11 @@ nav {
     /* Allow vertical resizing of the textarea */
     display: inline-block;
     margin: 2% 0;
-    padding: 1px ;
+    padding: 1px;
   }
-
-
 }
 
-
 @media screen and (min-width: 992px) {
-
   /*Header*/
   header {
     padding: 0 1rem;
@@ -1061,7 +950,7 @@ nav {
     /* puts links in a row */
   }
 
-  #menu>li {
+  #menu > li {
     padding-left: 1rem;
   }
 
@@ -1073,8 +962,7 @@ nav {
   #hero {
     background: url("hero-desktop.jpg") no-repeat center/cover;
     height: 100vh;
-   
-}
+  }
 
   /* Overlay Text Styles */
   .overlay-text {
@@ -1091,14 +979,14 @@ nav {
   }
 
   .overlay-text button {
-    background-color: #6D4C41;
+    background-color: #6d4c41;
     color: #fff;
     padding: 10px 20px;
     border: none;
     cursor: pointer;
     font-size: 1em;
   }
-/*
+  /*
   main {
     background-color: bisque;
     /* Make main element take up any surplus space to push footer down *
@@ -1111,7 +999,7 @@ nav {
 
   }
 */
-   main {
+  main {
     background-color: bisque;
     /* Make main element take up any surplus space to push footer down */
     flex: 1;
@@ -1119,7 +1007,6 @@ nav {
     width: 100%;
     overflow: hidden;
   }
-
 
   /* Services Section Styles */
   #services {
@@ -1143,7 +1030,7 @@ nav {
 
   button {
     margin: 20px;
-    background-color: #6D4C41;
+    background-color: #6d4c41;
     color: #fff;
     padding: 10px 20px;
     border: none;
@@ -1151,7 +1038,7 @@ nav {
     display: block;
     width: 200px;
   }
-/*
+  /*
   #grooming {
     display: flex;
     justify-content: space-around;
@@ -1166,26 +1053,26 @@ nav {
 
   */
 
-  #grooming article h2 {vertical-align: top;
+  #grooming article h2 {
+    vertical-align: top;
     padding: 0;
-  margin: 0;}
-  
-  #grooming>#grooming-treatments {
-   
-      width:50%;
+    margin: 0;
+  }
+
+  #grooming > #grooming-treatments {
+    width: 50%;
     flex: 1;
     margin: 0;
     font-size: large;
-  
-    }
-    #grooming>#dog-pampered {
-      background: url("dog-wash.jpg") no-repeat center;
-      margin-top: 50px;
-      width: 48%;
-      height: 300px;
-      object-fit: cover;
-    }
-/*
+  }
+  #grooming > #dog-pampered {
+    background: url("dog-wash.jpg") no-repeat center;
+    margin-top: 50px;
+    width: 48%;
+    height: 300px;
+    object-fit: cover;
+  }
+  /*
   #grooming>div {
    
     padding: 0;
@@ -1236,48 +1123,48 @@ nav {
   */
 
   /*Boarding*/
-  #boarding article h2 {vertical-align: top;
+  #boarding article h2 {
+    vertical-align: top;
     padding: 0;
-  margin: 0;}
-  
-  #boarding>#boarding-options {
-   
-      width:50%;
+    margin: 0;
+  }
+
+  #boarding > #boarding-options {
+    width: 50%;
     flex: 1;
     margin: 0;
     font-size: large;
-  
-    }
-    #boarding>#dog-relaxing {
-      background: url("boarding.jpg") no-repeat center;
-      margin-top: 50px;
-      width: 48%;
-      height: 300px;
-      object-fit: cover;
-    }
-  
+  }
+  #boarding > #dog-relaxing {
+    background: url("boarding.jpg") no-repeat center;
+    margin-top: 50px;
+    width: 48%;
+    height: 300px;
+    object-fit: cover;
+  }
+
   /*Nutrition*/
-  #nutrition article h2 {vertical-align: top;
+  #nutrition article h2 {
+    vertical-align: top;
     padding: 0;
-  margin: 0;}
-  
-  #nutrition>#nutrition-advice {
-   
-      width:50%;
+    margin: 0;
+  }
+
+  #nutrition > #nutrition-advice {
+    width: 50%;
     flex: 1;
     margin: 0;
     font-size: large;
-  
-    }
-    #nutrition>#healthy-dog {
-      background: url("dog-eating.jpg") no-repeat center;
-      margin-top: 50px;
-      width: 48%;
-      height: 300px;
-      object-fit: cover;
-    }
-  
-/*
+  }
+  #nutrition > #healthy-dog {
+    background: url("dog-eating.jpg") no-repeat center;
+    margin-top: 50px;
+    width: 48%;
+    height: 300px;
+    object-fit: cover;
+  }
+
+  /*
   #nutrition {
     display: flex;
     justify-content: space-around;
@@ -1293,18 +1180,19 @@ nav {
   }
 
 */
-#nutrition article h2 {vertical-align: top;
-padding: 0;
-margin: 0;}
+  #nutrition article h2 {
+    vertical-align: top;
+    padding: 0;
+    margin: 0;
+  }
 
-#nutrition>#nutrition-advice {
-  width:50%;
-flex: 1;
-margin: 0;
-font-size: large;
-
-}
-/*
+  #nutrition > #nutrition-advice {
+    width: 50%;
+    flex: 1;
+    margin: 0;
+    font-size: large;
+  }
+  /*
 #nutrition>#healthy-dog {
   background: url("nutrition.jpg") no-repeat center;
   margin-top: 100px;
@@ -1333,7 +1221,7 @@ font-size: large;
 
   }
 
-
+*/
   .contact-form {
     margin-bottom: 0px;
     /* Adjust spacing between form groups */
@@ -1352,10 +1240,9 @@ font-size: large;
     /* Fixed width for label */
     padding: 0px 0px;
     vertical-align: top;
-    
   }
 
-  .contact-form input[type=text],
+  .contact-form input[type="text"],
   .contact-form textarea {
     width: 60%;
     /* Let the textarea expand to fill available space */
@@ -1365,13 +1252,9 @@ font-size: large;
     margin: 1% 0;
     padding: 2px 0px 0px 5px;
   }
-
-
 }
 
-
 @media screen and (min-width: 1440px) {
-
   /*Header*/
   header {
     padding: 0 1rem;
@@ -1391,15 +1274,13 @@ font-size: large;
   #hero {
     background: url("hero-desktop.jpg") no-repeat center/cover;
     height: 100vh;
-  
-   
-}
+  }
   #menu {
     display: flex;
     /* puts links in a row */
   }
 
-  #menu>li {
+  #menu > li {
     padding-left: 1rem;
   }
 
@@ -1422,7 +1303,7 @@ font-size: large;
   }
 
   .overlay-text button {
-    background-color: #6D4C41;
+    background-color: #6d4c41;
     color: #fff;
     padding: 10px 20px;
     border: none;
@@ -1452,7 +1333,7 @@ font-size: large;
 
   button {
     margin: 20px;
-    background-color: #6D4C41;
+    background-color: #6d4c41;
     color: #fff;
     padding: 10px 20px;
     border: none;
@@ -1461,7 +1342,7 @@ font-size: large;
     width: 200px;
   }
 
-  /*Grooming *
+  /*Grooming */
   #grooming {
     display: flex;
     justify-content: space-around;
@@ -1471,8 +1352,7 @@ font-size: large;
     overflow: hidden;
     height: 300px;
     vertical-align: top;
-  
-  }
+  } /*
   
   #grooming article h2 {vertical-align: top;
     padding: 0;
@@ -1495,21 +1375,19 @@ font-size: large;
 
     /*Boarding*/
 
-    #boarding {
-      display: flex;
-      justify-content: space-around;
-      align-items: center;
-  
-  
-      width: 100%;
-      flex-direction: row;
-      overflow: hidden;
-      height: 300px;
-      vertical-align: top;
-    
-    }
-  
-/*
+  #boarding {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    width: 100%;
+    flex-direction: row;
+    overflow: hidden;
+    height: 300px;
+    vertical-align: top;
+  }
+
+  /*
   #boarding article h2 {vertical-align: top;
   padding: 0;
 margin: 0;}
@@ -1530,41 +1408,39 @@ margin: 0;}
   }
 
   /*Nutrition */
-  
+
   #nutrition {
     display: flex;
     justify-content: space-around;
     align-items: center;
-
 
     width: 100%;
     flex-direction: row;
     overflow: hidden;
     height: 300px;
     vertical-align: top;
-  
   }
 
+  #nutrition article h2 {
+    vertical-align: top;
+    padding: 0;
+    margin: 0;
+  }
 
-#nutrition article h2 {vertical-align: top;
-padding: 0;
-margin: 0;}
-
-#nutrition>#nutrition-advice {
-  width:50%;
-flex: 1;
-margin: 0;
-font-size: large;
-
-}
-#nutrition>#healthy-dog {
-  background: url("nutrition.jpg") no-repeat center;
-  margin-top: 50px;
-  width: 48%;
-  height: 300px;
-  object-fit: cover;
-}
-/*footer*/
+  #nutrition > #nutrition-advice {
+    width: 50%;
+    flex: 1;
+    margin: 0;
+    font-size: large;
+  }
+  #nutrition > #healthy-dog {
+    background: url("nutrition.jpg") no-repeat center;
+    margin-top: 50px;
+    width: 48%;
+    height: 300px;
+    object-fit: cover;
+  }
+  /*footer*/
   .footer-section {
     padding: 10px;
     margin: 0 auto;
@@ -1572,18 +1448,13 @@ font-size: large;
     justify-content: center;
     align-items: center;
     flex-direction: row;
-
   }
 
-
-
-  .footer-section>div {
+  .footer-section > div {
     margin: 8px 0;
     text-align: center;
     width: 48%;
-
   }
-
 
   .contact-form {
     margin-bottom: 0px;
@@ -1601,10 +1472,9 @@ font-size: large;
     width: 30%;
     /* Fixed width for label */
     padding: 5px 0px;
-
   }
 
-  .contact-form input[type=text],
+  .contact-form input[type="text"],
   .contact-form textarea {
     width: 40%;
     /* Let the textarea expand to fill available space */
@@ -1613,11 +1483,5 @@ font-size: large;
     display: inline-block;
     margin: 2% 0;
     padding: 5px 0px;
-
-
-
-
   }
-
-
 }
