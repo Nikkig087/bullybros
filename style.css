@@ -227,6 +227,40 @@ article>h2 {
 
 }
 
+/*Nutrition*/
+
+#nutrition {
+  margin: 47px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+
+}
+
+#nutrition>div {
+  width: 48%;
+  text-align: center;
+
+}
+
+#nutrition>#healthy-dog {
+  background: url("boarding.jpg") no-repeat center;
+  
+  width: 48%;
+  height: 300px;
+  object-fit: cover;
+}
+
+#nutrition-advice li {
+  width: 100%;
+  text-align: justify;
+  padding: 10px 0px;
+  margin-left: 30%;
+  font-weight: bold;
+
+}
+
 
 /* Footer */
 .footer-section {
