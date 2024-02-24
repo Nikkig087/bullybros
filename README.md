@@ -6,7 +6,7 @@ Bullybros is a site that is spefically aimed at providing grooming, boarding and
 
 # Features 
 
-##The Homepage
+## The Homepage
 The website consists of four webpages.  The Homepage is the Users first point of contact with the business when the first visit the site, on this page there is a Navigation bar that consists of the Logo and the Home, Grooming, Boarding and Nutrition pages links.  The Grooming, Boarding and Nutrition pages are also accesible via the link buttons under each image in the Services Section on the homepage.
 
 ### Existing Features
