@@ -2,7 +2,7 @@
 
 Bullybros is a site that is spefically aimed at providing grooming, boarding and nutritional services and advice for dog owners.  As bulldogs are a unique and a quite expensive their owners tend to be more willing to pay more to ensure they are happy and healthy, thats why that particular breed has been the main focus of this site.
 
-![Responsice Mockup](https://github.com/lucyrush/readme-template/blob/master/media/love_running_mockup.png)
+![Responsice Verification]([https://github.com/lucyrush/readme-template/blob/master/media/love_running_mockup.png](https://github.com/Nikkig087/bullybros/blob/main/responsive-test.png))
 
 # Features 
 
