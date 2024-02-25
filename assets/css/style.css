@@ -166,14 +166,6 @@ article > h2 {
   text-align: center;
 }
 
-#grooming > #dog-pampered {
-  background: url("../images/dog-wash.jpg") no-repeat center;
-  padding: 10%;
-  width: 100%;
-  height: 300px;
-  object-fit: cover;
-}
-
 #grooming-treatments li {
   width: 100%;
   text-align: justify;
@@ -470,6 +462,16 @@ table#opening-hours {
     margin-left: 0%;
     font-weight: bold;
   }
+
+  #grooming > #dog-pampered {
+    background: url("../images/dog-wash.jpg") no-repeat center;
+
+    width: 90%;
+    height: 300px;
+    object-fit: cover;
+  }
+
+
   /*Boarding */
   #boarding {
     display: flex;
@@ -480,7 +482,7 @@ table#opening-hours {
   #boarding > #dog-relaxing {
     background: url("../images/boarding.jpg") no-repeat center;
 
-    width: 100%;
+    width: 90%;
     height: 300px;
     object-fit: cover;
   }
@@ -503,7 +505,7 @@ table#opening-hours {
   #nutrition > #healthy-dog {
     background: url("../images/dog-eating.jpg") no-repeat center;
 
-    width: 100%;
+    width: 90%;
     height: 300px;
     object-fit: cover;
   }
