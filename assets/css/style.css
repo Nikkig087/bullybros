@@ -371,8 +371,8 @@ table#opening-hours {
   #hero {
     position: relative;
     text-align: center;
-    width: 100%;
-    margin: 0;
+    width: 95%;
+    margin: 10px;
 
     height: 600px;
     background: url("../images/hero.jpg") no-repeat center center/cover;
