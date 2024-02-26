@@ -143,6 +143,23 @@ section > h2 {
   font-size: x-large;
 }
 
+
+#cover-text {
+  /* Final rgba value sets the opacity so it is semi-transparent */
+  background-color: rgba(241, 109, 107, .7);
+  font-size: 130%;
+  position: absolute;
+  bottom: 40%;
+  width: 50%;
+  min-height: 200px;
+  padding-top: 40px;
+  padding-left: 0px;
+}
+
+#cover-text > h2, #cover-text > h3 {
+  color: #ffffff;
+}
+
 #grooming {
   margin: 47px auto;
   display: flex;
@@ -181,6 +198,7 @@ article > h2 {
   justify-content: center;
   align-items: center;
   flex-direction: row;
+  background: url("../images/boarding-page-background.jpg") no-repeat center center/cover;
 }
 
 #boarding > div {
@@ -866,6 +884,13 @@ nav {
     height: 400px;
   }
 
+  #cover-text {
+    width: 300px;
+    right: 50px;
+}
+
+  /*
+
   #boarding > #boarding-options {
     width: 50%;
     flex: 1;
@@ -886,7 +911,7 @@ nav {
     width: 50%;
     flex: 1;
   }
-
+*/
   .footer-section {
     padding: 10px;
     margin: 0 auto;
@@ -1391,6 +1416,7 @@ nav {
     overflow: hidden;
     height: 400px;
     vertical-align: top;
+    background-image: url("/images/boarding-page-background.jpg") no-repeat center center/cover;
   }
 
   /*
