@@ -189,12 +189,13 @@ article > h2 {
 }
 
 #boarding > #dog-relaxing {
-  background: url("../images/boarding.jpg") no-repeat center;
+    background: url("../images/boarding.jpg") no-repeat center;
 
-  width: 48%;
-  height: 300px;
-  object-fit: cover;
-}
+    width: 10%;
+    height: 300px;
+    
+    
+  }
 
 #boarding-options li {
   width: 100%;
