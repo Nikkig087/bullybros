@@ -23,7 +23,7 @@ The website consists of four webpages.  The Homepage is the Users first point of
   - The Home Page includes a Hero image with text overlay to allow the user to quickly navigate to the Services section of the Homepage. 
 
 
-![Landing Page](assets/images/hero.jpg)
+![Landing Page](assets/images/Hero&Overlay-text.png)
 
 - __About Section__
 
