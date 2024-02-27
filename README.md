@@ -20,10 +20,10 @@ The website consists of four webpages.  The Homepage is the Users first point of
 
 - __The Hero image__
 
-  - The landing includes a Hero image with text overlay to allow the user to quickly navigate to the Services section of the Homepage. 
+  - The Home Page includes a Hero image with text overlay to allow the user to quickly navigate to the Services section of the Homepage. 
 
 
-![Landing Page](https://github.com/lucyrush/readme-template/blob/master/media/love_running_landing.png)
+![Landing Page](assets/images/hero-desktop.jpg)
 
 - __About Section__
 
