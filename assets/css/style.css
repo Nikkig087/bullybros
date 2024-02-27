@@ -200,11 +200,11 @@ article > h2 {
   padding-top: 40px;
   padding-left: 10px;
  width: 100%;
-  height: 600px;
+  height: 800px;
 position: relative;
   background: url("../images/boarding-page-background.jpg") no-repeat center center/cover;
 }
-
+/*
 #boarding > div {
   width: 70%;
   text-align: center;
@@ -506,7 +506,7 @@ table#opening-hours {
     flex-direction: column;
     width: 100%;
   }
-/*
+
   #boarding > #dog-relaxing {
     background: url("../images/boarding.jpg") no-repeat center;
 
@@ -514,14 +514,22 @@ table#opening-hours {
     height: 300px;
     object-fit: cover;
   }
-*/
+/*
 #cover-text {
-  width: 300px;
+  width: 250px;
   right: 50px;
-}
+}*/
 
+#boarding > div {
+  width: 80%;
+  text-align: center;
+  padding:40px;
+  border-radius: 15%;
+  left: 30px;
+
+}
   #boarding-options li {
-    width: 100%;
+    width: 80%;
     text-align: justify;
     padding: 10px 0px;
     margin-left: 0%;
@@ -892,14 +900,15 @@ nav {
     width: 100%;
     flex-direction: row;
     overflow: hidden;
-    height: 400px;
+    height: 600px;
   }
 
   #boarding > div {
-    width: 45%;
+    width: 50%;
     text-align: center;
-    padding:0;
-    margin-top: 10px;
+    padding:10px;
+    border-radius: 15%;
+  
   }
 
   /*
@@ -1172,19 +1181,19 @@ nav {
     padding: 0;
     margin: 0;
   }
-
+/*
   #boarding > #boarding-options {
     width: 50%;
     flex: 1;
     margin: 0;
     font-size: large;
   }
-
+*/
   #boarding > div {
-    width: 40%;
+    width: 30%;
     text-align: center;
-    padding:0;
-    margin-top: 10px;
+    padding:10px;
+   /* margin-top: 20px;*/
     border-radius: 15%
   }
   /*
@@ -1436,7 +1445,7 @@ nav {
     width: 100%;
     flex-direction: row;
     overflow: hidden;
-    height: 400px;
+    height: 600px;
     vertical-align: top;
     background-image: url("/images/boarding-page-background.jpg") no-repeat center center/cover;
   }
