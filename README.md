@@ -35,11 +35,11 @@ The website consists of four webpages.  The Homepage is the Users first point of
 
   - This section allows the User to Navigate directly to the page that they want more information about, the buttons under each of the images specific to each of the Services provide the Users with this easy to use navigation option. 
 
-![Meetup Times](https://github.com/lucyrush/readme-template/blob/master/media/love_running_times.png)
+![Meetup Times](https://github.com/Nikkig087/bullybros/main/assets/images/services.png)
 
 - __The Footer__ 
   - The footer section is invaluable to the User as it provides Opening and Closing times for the Company, it also provides the User with an easy to use form in order to contact the Company regarding any queries or bookings they would like to make.
-  - The footer section includes links to the relevant social media sites for Bullybors. The links will open to a new tab to allow easy navigation for the user. 
+  - The foote0r section includes links to the relevant social media sites for Bullybors. The links will open to a new tab to allow easy navigation for the user. 
   - The Social Media links in the footer allow the Users to become more familiar with the company and follow the Companys updates via social media.
   - The footer information is consistant across all pages and the form can easily be submitted on any of the 4 pages.
 
