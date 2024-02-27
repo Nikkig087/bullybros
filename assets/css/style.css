@@ -373,7 +373,7 @@ table#opening-hours {
   margin-right: 25%;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 768px) {
   /* Header */
 
   header {
@@ -468,7 +468,7 @@ table#opening-hours {
     font-size: 1em;
   }
 
-  /* About, Boarding, Nutrition Section Styles *
+  /* About, Boarding, Nutrition Section Styles */
 
   #about {
 
