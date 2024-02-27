@@ -35,7 +35,7 @@ The website consists of four webpages.  The Homepage is the Users first point of
 
   - This section allows the User to Navigate directly to the page that they want more information about, the buttons under each of the images specific to each of the Services provide the Users with this easy to use navigation option. 
 
-![Meetup Times](https://github.com/Nikkig087/bullybros/main/assets/images/services.png)
+![Meetup Times](assets/images/services.png)
 
 - __The Footer__ 
   - The footer section is invaluable to the User as it provides Opening and Closing times for the Company, it also provides the User with an easy to use form in order to contact the Company regarding any queries or bookings they would like to make.
