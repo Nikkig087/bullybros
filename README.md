@@ -16,7 +16,7 @@ The website consists of four webpages.  The Homepage is the Users first point of
   - Featured on all four pages, the full responsive navigation bar includes the Logo, Home page, Grooming, Boarding and Nutritional pages and is identical in each page to promote intuative easy to use navigation for the User.
   - This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button. 
 
-![Nav Bar](https://github.com/Nikkig087/bullybros/blob/main/nav bar large screen.png)
+![Nav Bar](assets/images/navbar-large-screen.png)
 
 - __The Hero image__
 
