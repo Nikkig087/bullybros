@@ -373,7 +373,7 @@ table#opening-hours {
   margin-right: 25%;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 600px) {
   /* Header */
 
   header {
@@ -468,7 +468,7 @@ table#opening-hours {
     font-size: 1em;
   }
 
-  /* About, Boarding, Nutrition Section Styles */
+  /* About, Boarding, Nutrition Section Styles *
 
   #about {
 
@@ -483,36 +483,6 @@ table#opening-hours {
   }
 
   /* Services Section Styles */
-  #services > .grooming,
-  .boarding,
-  .nutrition {
-    display: flex;
-  }
-
-  #services {
-    display: flex;
-  }
-
-  #services img {
-    border-radius: 50%;
-    width: 200px;
-    height: 200px;
-    object-fit: cover;
-    margin-left: 10%;
-  }
-
-  button {
-    margin-top: 10px;
-    background-color: #6d4c41;
-    color: #fff;
-    padding: 5px 20px 5px 5px;
-    cursor: pointer;
-    display: block;
-    width: 160px;
-    text-align: center;
-    line-height: 1.5em;
-  }
-  /*
   #services {
     display: flex;
     justify-content: space-around;
@@ -545,7 +515,6 @@ table#opening-hours {
     width: 200px;
     margin-bottom: 40px;
   }
-  */
 
   /* grooming  */
 
