@@ -445,27 +445,37 @@ table#opening-hours {
     background: url("../images/hero.jpg") no-repeat center center/cover;
   }
 
+  
+
   /* Overlay Text Styles */
   .overlay-text {
     position: absolute;
-    top: 70%;
-    left: 50%;
+    top: 61%;
+    left: 47%;
     transform: translate(-50%, -50%);
-    color: black;
+   
   }
 
   .overlay-text h2 {
     font-size: 2em;
     margin-bottom: 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    text-align: center;
+    color: #ffffff;
+    width: 100%;
   }
 
-  .overlay-text button {
+  .overlay-text>button {
     background-color: #6d4c41;
     color: #fff;
     padding: 10px 20px;
     border: none;
     cursor: pointer;
     font-size: 1em;
+    width:100px;
+    transform: translate(40%, -50%);
+  
   }
 
   /* About, Boarding, Nutrition Section Styles *
@@ -767,25 +777,33 @@ nav {
   /* Overlay Text Styles */
   .overlay-text {
     position: absolute;
-    top: 50%;
-    left: 50%;
+    top: 61%;
+    left: 47%;
     transform: translate(-50%, -50%);
-    color: black;
+   
   }
 
   .overlay-text h2 {
     font-size: 2em;
     margin-bottom: 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    text-align: center;
+    color: #ffffff;
+    width: 100%;
   }
 
-  .overlay-text button {
+  .overlay-text>button {
     background-color: #6d4c41;
     color: #fff;
-    padding: 10px 20px;
+    padding: 10px 30px;
     border: none;
     cursor: pointer;
     font-size: 1em;
+    
+    transform: translate(15%, -50%);
   }
+
 
   /* Services Section Styles */
 
@@ -971,15 +989,20 @@ nav {
   /* Overlay Text Styles */
   .overlay-text {
     position: absolute;
-    top: 50%;
-    left: 50%;
+    top: 61%;
+    left: 47%;
     transform: translate(-50%, -50%);
-    color: black;
+   
   }
 
   .overlay-text h2 {
     font-size: 2em;
     margin-bottom: 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    text-align: center;
+    color: #ffffff;
+    width: 100%;
   }
 
   .overlay-text button {
@@ -1211,8 +1234,38 @@ nav {
     margin: 0;
     padding:0;
   }
+  .overlay-text {
+    position: absolute;
+    top: 61%;
+    left: 47%;
+    transform: translate(-50%, -50%);
+   
+  }
+
+  .overlay-text h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    text-align: center;
+    color: #ffffff;
+    width: 100%;
+  }
+
+  .overlay-text>button {
+    background-color: #6d4c41;
+    color: #fff;
+    padding: 10px 30px;
+    border: none;
+    cursor: pointer;
+    font-size: 1em;
+    
+    transform: translate(15%, -50%);
+  }
 
   /* Overlay Text Styles */
+
+  /*
   .overlay-text {
     position: absolute;
     top: 50%;
@@ -1578,24 +1631,31 @@ nav {
   /* Overlay Text Styles */
   .overlay-text {
     position: absolute;
-    top: 50%;
-    left: 50%;
+    top: 61%;
+    left: 47%;
     transform: translate(-50%, -50%);
-    color: black;
+   
   }
 
   .overlay-text h2 {
     font-size: 2em;
     margin-bottom: 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    text-align: center;
+    color: #ffffff;
+    width: 100%;
   }
 
-  .overlay-text button {
+  .overlay-text>button {
     background-color: #6d4c41;
     color: #fff;
-    padding: 10px 20px;
+    padding: 10px 30px;
     border: none;
     cursor: pointer;
     font-size: 1em;
+    
+    transform: translate(10%, -50%);
   }
 
   /* Services Section Styles */
