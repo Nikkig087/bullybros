@@ -373,7 +373,7 @@ table#opening-hours {
   margin-right: 25%;
 }
 
-@media screen and (max-width: 600px) {
+@media only screen and (max-width: 600px) {
   /* Header */
 
   header {
@@ -438,9 +438,9 @@ table#opening-hours {
   #hero {
     position: relative;
     text-align: center;
-    width: 95%;
-    margin: 10px;
-
+    width: 100%;
+    margin: 0;
+    padding:0;
     height: 600px;
     background: url("../images/hero.jpg") no-repeat center center/cover;
   }
@@ -681,7 +681,7 @@ table#opening-hours {
   }
 }
 
-@media screen and (min-width: 600px) {
+@media only screen and (min-width: 600px) {
   /*Header */
 
   header {
@@ -690,15 +690,16 @@ table#opening-hours {
   }
 
   /*Nav */
+  /*
   nav {
     display: block;
     position: relative;
-    /* to put in back inside header*/
+    /* to put in back inside header*
     box-shadow: none;
     width: fit-content;
     /* So it doesnt take up all the header*/
-    /*padding-right: 2rem;*/
-  }
+    /*padding-right: 2rem;*
+  }*/
 
   #menu {
     display: flex;
@@ -709,10 +710,60 @@ table#opening-hours {
     padding-left: 1rem;
   }
 
+  
+  main {
+    background-color: bisque;
+    /* Make main element take up any surplus space to push footer down */
+
+    margin-top: 40px;
+
+    width: 100%;
+  }
+
+  #hero {
+    position: relative;
+    text-align: center;
+    width: 100%;
+    margin: 0;
+    padding:0;
+
+    height: 600px;
+    background: url("../images/hero.jpg") no-repeat center center/cover;
+  }
+
+
+/*
   .nav-toggle-label {
+    display: none;
+  }*/
+nav {
+    position: absolute;
+
+    background-color: #8d6e63;
+    width: 100%;
+    left: 0;
+    padding: 5px;
+    box-shadow: 0 2px 2px #3a3a3a;
+    display: none;
+    top: 100%;
+    /*the top of the element should start at the bottom of its parent */
+    font-weight: bold;
+  }
+
+
+
+  #nav-toggle:checked ~ nav {
+    display: flex;
+  }
+
+  /*remove checkbox*/
+  #nav-toggle {
     display: none;
   }
 
+  .nav-toggle-label {
+    font-size: 2rem;
+  }
   /* Overlay Text Styles */
   .overlay-text {
     position: absolute;
@@ -737,6 +788,8 @@ table#opening-hours {
   }
 
   /* Services Section Styles */
+
+  /*
   #services {
     display: flex;
     justify-content: space-around;
@@ -767,6 +820,39 @@ table#opening-hours {
     cursor: pointer;
     display: block;
     width: 200px;
+  }*/
+  
+  #services {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-left: 25%;
+    padding-right: 25%;
+    width: 100%;
+    flex-direction: column;
+  }
+
+  #services div {
+    text-align: center;
+  }
+
+  #services img {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+  }
+
+  button {
+    margin-top: 20px;
+    background-color: #6d4c41;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    display: block;
+    width: 200px;
+    margin-bottom: 40px;
   }
 
   .footer-section {
@@ -877,6 +963,9 @@ nav {
     width: 100%;
     background: url("../images/hero.jpg") no-repeat center center/cover;
     position: relative;
+    margin: 0;
+    padding:0;
+   
   }
 
   /* Overlay Text Styles */
@@ -912,14 +1001,19 @@ nav {
   }
 
   /* Services Section Styles */
+  
   #services > .grooming,
   .boarding,
   .nutrition {
     display: flex;
+    padding: 0 20px;
+  
   }
 
   #services {
     display: flex;
+    flex-direction: row;
+    
   }
 
   #services img {
@@ -927,21 +1021,18 @@ nav {
     width: 200px;
     height: 200px;
     object-fit: cover;
-    margin-left: 10%;
   }
 
   button {
-    margin-top: 10px;
+    margin: 20px;
     background-color: #6d4c41;
     color: #fff;
-    padding: 5px 20px 5px 5px;
+    padding: 10px 20px;
+    border: none;
     cursor: pointer;
     display: block;
-    width: 160px;
-    text-align: center;
-    line-height: 1.5em;
+    width: 180px;
   }
-
   /*#grooming {
     display: flex;
     justify-content: space-around;
@@ -1114,8 +1205,11 @@ nav {
 
   /* hero*/
   #hero {
-    background: url("../images/hero-desktop.jpg") no-repeat center/cover;
-    height: 100vh;
+    background: url("../images/hero-desktop.jpg") no-repeat center center/cover;
+    height: 80vh;
+    width: 100%;
+    margin: 0;
+    padding:0;
   }
 
   /* Overlay Text Styles */
@@ -1190,7 +1284,7 @@ nav {
     border: none;
     cursor: pointer;
     display: block;
-    width: 200px;
+    width: 190px;
   }
   /* grooming */
 
@@ -1463,7 +1557,10 @@ nav {
   }
   #hero {
     background: url("../images/hero-desktop.jpg") no-repeat center/cover;
-    height: 100vh;
+    height: 80vh;
+    width: 100%;
+    margin: 0;
+    padding:0;
   }
   #menu {
     display: flex;
