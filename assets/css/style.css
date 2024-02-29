@@ -2176,7 +2176,7 @@ width: 30%;
     overflow: hidden;
     height: 600px;
     vertical-align: top;
-    background-image: url("/images/grooming-background-image") no-repeat center center/cover;
+    background: url("/images/grooming-background-image") no-repeat center center/cover;
   
   }
   /*
@@ -2222,7 +2222,7 @@ width: 30%;
     overflow: hidden;
     height: 600px;
     vertical-align: top;
-    background-image: url("/images/boarding-page-background.jpg") no-repeat center center/cover;
+    background: url("/images/boarding-page-background.jpg") no-repeat center center/cover;
    
   }
 
@@ -2258,7 +2258,7 @@ margin: 0;}
     overflow: hidden;
     height: 600px;
     vertical-align: top;
-    background-image: url("/images/nutrition-page-background") no-repeat center center/cover;
+    background: url("/images/nutrition-page-background") no-repeat center center/cover;
   }
 
   /*
