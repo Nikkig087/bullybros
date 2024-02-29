@@ -43,7 +43,7 @@ The website consists of four webpages.  The Homepage is the Users first point of
   - The Social Media links in the footer allow the Users to become more familiar with the company and follow the Companys updates via social media.
   - The footer information is consistant across all pages and the form can easily be submitted on any of the 4 pages.
 
-![Footer](https://github.com/lucyrush/readme-template/blob/master/media/love_running_footer.png)
+![Footer](assets/images/footer.JPG)
 
 ### Grooming Page
 - The Grooming page is very clear and non-clutered, the rational for this is to protray a simple relaxing feel with only the necessary information presented to the User. 
