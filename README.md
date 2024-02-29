@@ -2,16 +2,39 @@
 
 Bullybros is a site that is spefically aimed at providing grooming, boarding and nutritional services and advice for dog owners.  As bulldogs are a unique and a quite expensive their owners tend to be more willing to pay more to ensure they are happy and healthy, thats why that particular breed has been the main focus of this site.
 
-![Responsive Verification](assets/images/responsive-test.JPG)
+![Responsive Verification](assets/images/responsive-test.webp)
 
 # User Stories
+
+**First Time User Goals:**
+- As a user, I want to easily navigate the BullyBros website to understand the services they offer for my pet.
+- As a user, I want to learn about grooming, boarding, and nutrition services available for my pet on my first visit.
+- As a user, I want to access contact information easily so I can inquire about services if needed during my initial exploration.
+- As a user, I want to understand the business's operating hours for future reference when planning to visit.
+- As a user, I want to connect with BullyBros on social media platforms during my first visit for updates and engagement.
+
+**Returning User Goals:**
+- As a user, I want to quickly find specific information about grooming, boarding, or nutrition services on my return visits.
+- As a user, I want to check for any updates or changes to the services provided by BullyBros during subsequent visits.
+- As a user, I want to easily access contact information for further inquiries or appointments when I revisit the website.
+- As a user, I want to verify the current operating hours before planning a visit during my return visits.
+- As a user, I want to engage with BullyBros on social media for ongoing interaction and updates when I return to the website.
+
+**Frequent User Goals:**
+- As a user, I want to directly access desired services without navigating through the entire website on my frequent visits.
+- As a user, I want to stay informed about any new services or promotions offered by BullyBros during my regular visits.
+- As a user, I want to use the contact form efficiently for regular inquiries or scheduling appointments when I visit frequently.
+- As a user, I want to memorize or bookmark the business's operating hours for convenience during my frequent visits.
+- As a user, I want to actively participate in discussions or promotions through BullyBros' social media channels during my frequent visits.
+
+<br>
 
 # Features 
 
 ## The Colour Scheme
 The color scheme used was based on the typical bulldog colouring.  The colours used are also calming and relaxing and that is the feeling the Users should have when they visit the website.  THis pallet was generated using [Color Fetch](https://www.colorfetch.com/)
 
-![Colour Scheme](assets/images/colour-scheme.JPG)
+![Colour Scheme](assets/images/colour-scheme.webp)
 
 ## The Homepage
 The website consists of four webpages.  The Homepage is the Users first point of contact with the business when the first visit the site, on this page there is a Navigation bar that consists of the Logo and the Home, Grooming, Boarding and Nutrition pages links.  The Grooming, Boarding and Nutrition pages are also accesible via the link buttons under each image in the Services Section on the homepage.
@@ -23,26 +46,26 @@ The website consists of four webpages.  The Homepage is the Users first point of
   - Featured on all four pages, the full responsive navigation bar includes the Logo, Home page, Grooming, Boarding and Nutritional pages and is identical in each page to promote intuative easy to use navigation for the User.
   - This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button. 
 
-![Nav Bar](assets/images/navbar-large-screen.png)
+![Nav Bar](assets/images/navbar-large-screen.webp)
 
 - __The Hero image__
 
   - The Home Page includes a Hero image with text overlay to allow the user to quickly navigate to the Services section of the Homepage. 
 
 
-![Landing Page](assets/images/hero-img.JPG)
+![Landing Page](assets/images/hero-img.webp)
 
 - __About Section__
 
   - The User is introduced to the Company with a brief history about the Company via the About us section, however this site is built to serve the Users needs so this section was kept very small as to not distract the User away from what they are really there for which is to avail of a Service. 
 
-![Club Ethos](https://github.com/lucyrush/readme-template/blob/master/media/love_running_ethos.png)
+![Club Ethos](https://github.com/lucyrush/readme-template/blob/master/media/love_running_ethos.we)
 
 - __Services section__
 
   - This section allows the User to Navigate directly to the page that they want more information about, the buttons under each of the images specific to each of the Services provide the Users with this easy to use navigation option. 
 
-![Meetup Times](assets/images/services.png)
+![Services](assets/images/services.webp)
 
 - __The Footer__ 
   - The footer section is invaluable to the User as it provides Opening and Closing times for the Company, it also provides the User with an easy to use form in order to contact the Company regarding any queries or bookings they would like to make.
@@ -50,7 +73,7 @@ The website consists of four webpages.  The Homepage is the Users first point of
   - The Social Media links in the footer allow the Users to become more familiar with the company and follow the Companys updates via social media.
   - The footer information is consistant across all pages and the form can easily be submitted on any of the 4 pages.
 
-![Footer](assets/images/footer.JPG)
+![Footer](assets/images/footer.webp)
 
 ### Grooming Page
 - The Grooming page is very clear and non-clutered, the rational for this is to protray a simple relaxing feel with only the necessary information presented to the User. 
