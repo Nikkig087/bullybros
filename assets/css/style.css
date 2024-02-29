@@ -455,12 +455,61 @@ table#opening-hours {
   /* Overlay Text Styles */
   .overlay-text {
     position: absolute;
-    top: 31%;
-    left: 47%;
-    transform: translate(-50%, -20%);
+    top: 30%;
+    left: 20%;
+   /* transform: translate(-50%, -20%);*/
     padding: 0 10px;
     background-color: rgb(141,110,99,0.6);
-    width: 60%;
+    display: flex;
+    flex-direction: column;
+width: 50%;
+    height: 30%;
+   border-radius: 15%;
+   align-items: center;
+   justify-content: center;
+  }
+
+  .overlay-text h2 {
+    font-size: 2em;
+    margin: 5px 0px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    text-align: center;
+    color:black;
+    width: 100%;
+  }
+
+  .overlay-text>button {
+    background-color: #6d4c41;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    width: auto;
+   /*
+    padding:10px 20px;
+    margin:2% 20%;
+    border: none;
+    cursor: pointer;
+    font-size: 1em;
+    left: 70%;
+    
+    
+   /* transform: translate(30%, -70%);*/
+  
+  }
+  /*
+  .overlay-text {
+    position: absolute;
+    top: 31%;
+    left: 47%;
+    /*transform: translate(-50%, -20%);*
+    padding: 0 10px;
+    background-color: rgb(141,110,99,0.6);
+    display: flex;
+    flex-direction: column;
+    width: 30%;
     height: 30%;
    border-radius: 15%;
   }
@@ -480,7 +529,7 @@ table#opening-hours {
     color: #fff;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: center;/*
     width: 50%;
     padding:10px 20px;
     margin:2% 20%;
@@ -492,7 +541,7 @@ table#opening-hours {
     
    /* transform: translate(30%, -70%);*/
   
-  }
+  
 
   /* About, Boarding, Nutrition Section Styles *
 
@@ -791,6 +840,97 @@ nav {
     font-size: 2rem;
   }
   /* Overlay Text Styles */
+
+  /* Overlay Text Styles */
+  .overlay-text {
+    position: absolute;
+    top: 31%;
+    left: 47%;
+    transform: translate(-50%, -20%);
+    padding: 0 10px;
+    background-color: rgb(141,110,99,0.6);
+    display: flex;
+    flex-direction: column;
+width: 30%;
+    height: 30%;
+   border-radius: 15%;
+   align-items: center;
+   justify-content: center;
+  }
+
+  .overlay-text h2 {
+    font-size: 2em;
+    margin: 5px 0px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    text-align: center;
+    color:black;
+    width: 100%;
+    margin: auto;
+  }
+
+  .overlay-text>button {
+    background-color: #6d4c41;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    width: auto;
+   /*
+    padding:10px 20px;
+    margin:2% 20%;
+    border: none;
+    cursor: pointer;
+    font-size: 1em;
+    left: 70%;
+    
+    
+   /* transform: translate(30%, -70%);*/
+  
+  }
+  /*
+  .overlay-text {
+    position: absolute;
+    top: 31%;
+    left: 47%;
+    transform: translate(-50%, -20%);
+    padding: 0 10px;
+    background-color: rgb(141,110,99,0.6);
+
+    height: 30%;
+   border-radius: 15%;
+  }
+
+  .overlay-text h2 {
+    font-size: 2em;
+    margin: 20px 0px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    text-align: center;
+    color:black;
+    width: 100%;
+  }
+
+  .overlay-text>button {
+    background-color: #6d4c41;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding:10px 20px;
+    margin:2% 20%;
+    border: none;
+    cursor: pointer;
+    font-size: 1em;
+    left: 70%;
+    
+    
+   /* transform: translate(30%, -70%);*/
+  
+  
+  /*
   .overlay-text {
     position: absolute;
     top: 61%;
@@ -1002,6 +1142,54 @@ nav {
    
   }
 
+  /* Overlay Text Styles */
+  .overlay-text {
+    position: absolute;
+    top: 45%;
+    left: 47%;
+   /* transform: translate(-50%, -20%);*/
+    padding: 0 10px;
+    background-color: rgb(141,110,99,0.6);
+    display: flex;
+    flex-direction: column;
+width: 30%;
+    height: 25%;
+   border-radius: 15%;
+   align-items: center;
+   justify-content: center;
+  }
+
+  .overlay-text h2 {
+    font-size: 2em;
+    margin: 5px 0px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    text-align: center;
+    color:black;
+    width: auto;
+    margin:auto ;
+  }
+
+  .overlay-text>button {
+    background-color: #6d4c41;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+   /*
+    padding:10px 20px;
+    margin:2% 20%;
+    border: none;
+    cursor: pointer;
+    font-size: 1em;
+    left: 70%;
+    
+    
+   /* transform: translate(30%, -70%);*/
+  
+  }
+  /*
   .overlay-text {
     position: absolute;
     top: 55%;
@@ -1287,6 +1475,92 @@ nav {
     padding:0;
   }
 
+
+  .overlay-text {
+    position: absolute;
+    top: 45%;
+    left: 47%;
+    transform: translate(-50%, -20%);
+    padding: 0 10px;
+    background-color: rgb(141,110,99,0.6);
+    display: flex;
+    flex-direction: column;
+width: 30%;
+    height: 25%;
+   border-radius: 15%;
+   align-items: center;
+   justify-content: center;
+   margin: auto 0px 0px 0px;
+  }
+
+  .overlay-text h2 {
+    font-size: 2.5em;
+    margin: 5px 0px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    text-align: center;
+    color:black;
+    width: auto;
+    margin: auto;
+  }
+
+  .overlay-text>button {
+    background-color: #6d4c41;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    width: auto;
+
+  /*
+  .overlay-text {
+    position: absolute;
+    top: 55%;
+    left: 47%;
+   /* transform: translate(-50%, -20%);
+    padding: 0 10px;*
+    background-color: rgb(141,110,99,0.6);
+    display: flex;
+    flex-direction: column;
+width: 30%;
+    height: 20%;
+   border-radius: 15%;
+   align-items: center;
+   justify-content: center;
+  }
+
+  .overlay-text h2 {
+    font-size: 2em;
+    margin: 5px 0px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    text-align: center;
+    color:black;
+    width: 100%;
+  }
+
+  .overlay-text>button {
+    background-color: #6d4c41;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+   /*
+    padding:10px 20px;
+    margin:2% 20%;
+    border: none;
+    cursor: pointer;
+    font-size: 1em;
+    left: 70%;
+    
+    
+   /* transform: translate(30%, -70%);*/
+  
+  }
+
+  /*
   .overlay-text {
     position: absolute;
     top: 55%;
@@ -1681,7 +1955,45 @@ nav {
 
 @media only screen and (min-width:1200px)
 {
-  
+
+  .overlay-text {
+    position: absolute;
+    top: 45%;
+    left: 47%;
+    transform: translate(-50%, -20%);
+    padding: 0 10px;
+    background-color: rgb(141,110,99,0.6);
+    display: flex;
+    flex-direction: column;
+width: 30%;
+    height: 40%;
+   border-radius: 15%;
+   align-items: center;
+   justify-content: center;
+  }
+
+  .overlay-text h2 {
+    font-size: 2.5em;
+    margin: 5px 0px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    text-align: center;
+    color:black;
+    width: auto;
+    margin: auto 0px 0px 0px;
+  }
+
+  .overlay-text>button {
+    background-color: #6d4c41;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    width: auto;
+
+  }
+  /*
   .overlay-text {
     position: absolute;
     top: 55%;
@@ -1766,7 +2078,7 @@ nav {
     height: 22%;
    border-radius: 15%;
   }
-
+/*
   .overlay-text h2 {
     font-size: 2em;
     margin: 30px 0px;
