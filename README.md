@@ -13,6 +13,11 @@ The color scheme used was based on the typical bulldog colouring.  The colours u
 
 ![Colour Scheme](assets/images/colour-scheme.JPG)
 
+## Wireframes
+
+![Desktop Homepage Wirefram](assets/images/desktop-homepage.png) ![Mobile Homepage Wirefram](assets/images/mobile-homepage.png)
+![Desktop Subpages Wirefram](assets/images/subpages.png)  ![Mobile Subpages Wirefram](assets/images/mobile-subpage.png)
+
 ## The Homepage
 The website consists of four webpages.  The Homepage is the Users first point of contact with the business when the first visit the site, on this page there is a Navigation bar that consists of the Logo and the Home, Grooming, Boarding and Nutrition pages links.  The Grooming, Boarding and Nutrition pages are also accesible via the link buttons under each image in the Services Section on the homepage.
 
