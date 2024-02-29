@@ -4,7 +4,14 @@ Bullybros is a site that is spefically aimed at providing grooming, boarding and
 
 ![Responsive Verification](assets/images/responsive-test.JPG)
 
+# User Stories
+
 # Features 
+
+## The Colour Scheme
+The color scheme used was based on the typical bulldog colouring.  The colours used are also calming and relaxing and that is the feeling the Users should have when they visit the website.  THis pallet was generated using [Color Fetch](https://www.colorfetch.com/)
+
+![Colour Scheme](assets/images/colour-scheme.JPG)
 
 ## The Homepage
 The website consists of four webpages.  The Homepage is the Users first point of contact with the business when the first visit the site, on this page there is a Navigation bar that consists of the Logo and the Home, Grooming, Boarding and Nutrition pages links.  The Grooming, Boarding and Nutrition pages are also accesible via the link buttons under each image in the Services Section on the homepage.
@@ -65,16 +72,6 @@ The website consists of four webpages.  The Homepage is the Users first point of
 - The Nutrition Section consists of a list of Services we provide as well as an image of a dog in eating to reflect the how important it is to make sure your dog is healthy.
 
 
-
-
-
-
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
-
-### Features Left to Implement
-
-- Another feature idea
-
 ## Testing 
 
 In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your project’s features and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
@@ -91,8 +88,9 @@ If this section grows too long, you may want to split it off into a separate fil
 - HTML
   - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcode-institute-org.github.io%2Flove-running-2.0%2Findex.html)
 - CSS
-  - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fvalidator.w3.org%2Fnu%2F%3Fdoc%3Dhttps%253A%252F%252Fcode-institute-org.github.io%252Flove-running-2.0%252Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en#css)
-
+  - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator).
+  - Accessiblity, Best Practices and SEO ranked very high on the lighthouse testing, however performance was a bit low. This will be an element of focus for the future. [Lighthouse Validator](https://googlechrome.github.io/lighthouse/viewer/?psiurl=https%3A%2F%2Fnikkig087.github.io%2Fbullybros%2F&strategy=mobile&category=performance&category=accessibility&category=best-practices&category=seo&category=pwa&utm_source=lh-chrome-ext)
+    
 ### Unfixed Bugs
 
 You will need to mention unfixed bugs and why they were not fixed. This section should include shortcomings of the frameworks or technologies used. Although time can be a big variable to consider, paucity of time and difficulty understanding implementation is not a valid reason to leave bugs unfixed. 
