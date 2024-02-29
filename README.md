@@ -9,9 +9,9 @@ Bullybros is a site that is spefically aimed at providing grooming, boarding and
 # Features 
 
 ## The Colour Scheme
-The color scheme used was based on the typical bulldog colouring.  The colours used are also calming and relaxing and that is the feeling the Users should have when they visit the website.
+The color scheme used was based on the typical bulldog colouring.  The colours used are also calming and relaxing and that is the feeling the Users should have when they visit the website.  THis pallet was generated using [Color Fetch](https://www.colorfetch.com/)
 
-[Colour Scheme](assets/images/colour-scheme.JPG)
+![Colour Scheme](assets/images/colour-scheme.JPG)
 
 ## The Homepage
 The website consists of four webpages.  The Homepage is the Users first point of contact with the business when the first visit the site, on this page there is a Navigation bar that consists of the Logo and the Home, Grooming, Boarding and Nutrition pages links.  The Grooming, Boarding and Nutrition pages are also accesible via the link buttons under each image in the Services Section on the homepage.
