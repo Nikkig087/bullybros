@@ -4,6 +4,8 @@ Bullybros is a site that is spefically aimed at providing grooming, boarding and
 
 ![Responsive Verification](assets/images/responsive-test.JPG)
 
+# User Stories
+
 # Features 
 
 ## The Homepage
@@ -64,16 +66,6 @@ The website consists of four webpages.  The Homepage is the Users first point of
 - The Footer is also consistent with the homepage.
 - The Nutrition Section consists of a list of Services we provide as well as an image of a dog in eating to reflect the how important it is to make sure your dog is healthy.
 
-
-
-
-
-
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
-
-### Features Left to Implement
-
-- Another feature idea
 
 ## Testing 
 
