@@ -38,11 +38,11 @@ The color scheme used was based on the typical bulldog colouring.  The colours u
 
 ## Wireframes
 ### Desktop and Mobile Homepage
-![Desktop Homepage Wireframe](assets/images/desktop-homepage.png)   ![Mobile Homepage Wireframe](assets/images/mobile-homepage.png)
+![Desktop Homepage Wireframe](assets/images/desktop-homepage.webp)   ![Mobile Homepage Wireframe](assets/images/mobile-homepage.webp)
 
 
 ### Desktop and Mobile Subpages
-![Desktop Subpages Wireframe](assets/images/subpages.png)  ![Mobile Subpages Wireframe](assets/images/mobile-subpage.png)
+![Desktop Subpages Wireframe](assets/images/subpages.webp)  ![Mobile Subpages Wireframe](assets/images/mobile-subpage.webp)
 
 The subpage layout remained the same for all of the subpages.
 
@@ -58,7 +58,13 @@ The website consists of four webpages.  The Homepage is the Users first point of
   - Featured on all four pages, the full responsive navigation bar includes the Logo, Home page, Grooming, Boarding and Nutritional pages and is identical in each page to promote intuative easy to use navigation for the User.
   - This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button. 
 
-![Nav Bar](assets/images/navbar-large-screen.webp)
+Nav Bar for Tablet, Laptop and Desktop
+![Nav Bar for Tablet, Laptop and Desktop ](assets/images/navbar-large-screen.webp)
+<br>
+
+Nav Bar for Mobile
+![Nav Bar Mobile](assets/images/mobile-nav.webp)
+
 
 - __The Hero image__
 
@@ -71,7 +77,7 @@ The website consists of four webpages.  The Homepage is the Users first point of
 
   - The User is introduced to the Company with a brief history about the Company via the About us section, however this site is built to serve the Users needs so this section was kept very small as to not distract the User away from what they are really there for which is to avail of a Service. 
 
-![Club Ethos](https://github.com/lucyrush/readme-template/blob/master/media/love_running_ethos.we)
+![About](assets/images/about.png)
 
 - __Services section__
 
@@ -93,11 +99,58 @@ The website consists of four webpages.  The Homepage is the Users first point of
 - The Footer is also consistent with the homepage.
 - The Grooming Section consists of a list of Services we provide as well as an image of a dog being washed to reflect the grooming process.
 
+<br>
+<br>
+
+Laptop and Desktop Grooming Page
+<br>
+
+![grooming Laptop and Desktop](assets/images/grooming-page.webp)
+
+<br>
+<br>
+
+Tablet Grooming Page
+<br>
+
+![grooming Tablet](assets/images/tablet-grooming-page.webp)
+
+<br>
+<br>
+
+Mobile Grooming Page
+<br>
+
+![grooming Mobile](assets/images/mobile-grooming-page.webp)
+<br>
+<br>
+
 ### Boarding Page
 - The Boarding page is consistent with the methodology used in the Grooming Page which is that of a very clear and non-clutered feel.
 - The Navigation Section is not altered from the Navigation Section used in the Home page.
 - The Footer is also consistent with the homepage.
 - The Boarding Section consists of a list of Services we provide as well as an image of a dog in bed to reflect the Boarding facilites on offer.
+
+<br>
+Laptop and Desktop Boarding page
+<br>
+
+![Boarding Desktop and Laptop Page](assets/images/boarding-desktop-laptop.webp)
+
+<br>
+
+Tablet Boarding page
+<br>
+
+![Boarding Tablet Page](assets/images/boarding-tablet.webp)
+<br>
+
+Mobile Boarding page
+<br>
+
+![Boarding Mobile Page](assets/images/boarding-mobile.webp)
+<br>
+
 
 
 ### Nutritional Page
@@ -105,6 +158,28 @@ The website consists of four webpages.  The Homepage is the Users first point of
 - The Navigation Section is not altered from the Navigation Section used in the Home page.
 - The Footer is also consistent with the homepage.
 - The Nutrition Section consists of a list of Services we provide as well as an image of a dog in eating to reflect the how important it is to make sure your dog is healthy.
+
+
+
+<br>
+Laptop and Desktop Nutrition page
+<br>
+
+![Nutrition Desktop and Laptop Page](assets/images/nutrition-desktop-laptop.webp)
+
+<br>
+
+Tablet Nutrition page
+<br>
+
+![Nutrition Tablet Page](assets/images/nutrition-tablet.webp)
+<br>
+
+Mobile Nutrition page
+<br>
+
+![Nutrition Mobile Page](assets/images/nutrition-mobile.webp)
+<br>
 
 
 ## Testing 
@@ -124,7 +199,7 @@ If this section grows too long, you may want to split it off into a separate fil
   - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcode-institute-org.github.io%2Flove-running-2.0%2Findex.html)
 - CSS
   - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator).
-  - Accessiblity, Best Practices and SEO ranked very high on the lighthouse testing, however performance was a bit low. This will be an element of focus for the future. [Lighthouse Validator](https://googlechrome.github.io/lighthouse/viewer/?psiurl=https%3A%2F%2Fnikkig087.github.io%2Fbullybros%2F&strategy=mobile&category=performance&category=accessibility&category=best-practices&category=seo&category=pwa&utm_source=lh-chrome-ext)
+  - Accessiblity, Best Practices, SEO and Performance ranked very high on the lighthouse testing. [Lighthouse testing](lighthouse-testing-bullybros.html)
     
 ### Unfixed Bugs
 
