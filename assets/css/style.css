@@ -325,7 +325,7 @@ table#opening-hours {
     margin: 0;
     padding:0;
     height: 600px;
-    background: url("../images/hero.webp") no-repeat center center/cover;
+    background: url("../images/hero-desktop.webp") no-repeat center center/cover;
   }
 
   
@@ -582,7 +582,7 @@ nav {
       margin: 0;
       padding:0;
       height: 600px;
-      background: url("../images/hero.webp") no-repeat center center/cover;
+      background: url("../images/hero-desktop.webp") no-repeat center center/cover;
     }
   
 
@@ -751,7 +751,7 @@ width: 30%;
   #hero {
     height: 600px;
     width: 100%;
-    background: url("../images/hero.webp") no-repeat center center/cover;
+    background: url("../images/hero-desktop.webp") no-repeat center center/cover;
     position: relative;
     margin: 0;
     padding:0;
@@ -972,7 +972,7 @@ width: 30%;
   /* hero*/
   #hero {
     background: url("../images/hero-desktop.webp") no-repeat center center/cover;
-    height: 80vh;
+    height: 550px;
     width: 100%;
     margin: 0;
     padding:0;
@@ -1218,7 +1218,7 @@ width: 30%;
    /*Hero*/
    #hero {
     background: url("../images/hero-desktop.webp") no-repeat center/cover;
-    height: 80vh;
+    height: 750px;
     width: 100%;
     margin: 0;
     padding:0;
