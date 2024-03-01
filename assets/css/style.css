@@ -6,6 +6,11 @@ body {
   overflow-x: hidden;
 }
 
+.preload-image {
+  display: none;
+  background-image: url('../images/hero.webp');
+}
+
 /* Asterisk wildcard selector to override default styles added by the browser, this code was taken from the love running project */
 * {
   padding: 0;
