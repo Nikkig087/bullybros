@@ -6,7 +6,6 @@ body {
   overflow-x: hidden;
 }
 
-/* Asterisk wildcard selector to override default styles added by the browser, this code was taken from the love running project */
 * {
   padding: 0;
   margin: 0;
@@ -142,8 +141,7 @@ article > h2 {
   padding: 5%;
   font-size: x-large;
   font-style: italic;
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-family: "Lucida Sans", "Lucida Sans Regular", sans-serif;
 }
 
 
@@ -291,12 +289,12 @@ table#opening-hours {
     display: flex;
   }
 
-  /*remove checkbox taken from the love running project*/
+ 
   #nav-toggle {
     display: none;
   }
 
-  /*nav toggle taken from the love running project*/
+
   .nav-toggle-label {
     font-size: 2rem;
   }
@@ -325,7 +323,7 @@ table#opening-hours {
     margin: 0;
     padding:0;
     height: 600px;
-    background: url("../images/hero.webp") no-repeat center center/cover;
+    background: url("../images/hero-mobile.webp") no-repeat center center/cover;
   }
 
   
@@ -333,13 +331,13 @@ table#opening-hours {
   /* Overlay Text Styles */
   .overlay-text {
     position: absolute;
-    top: 30%;
+    top: 25%;
     left: 20%;
     padding: 0 10px;
     background-color: rgb(141,110,99,0.6);
     display: flex;
     flex-direction: column;
-width: 50%;
+width: 60%;
     height: 30%;
    border-radius: 15%;
    align-items: center;
@@ -437,6 +435,7 @@ width: 50%;
     display: flex;
     flex-direction: column;
     width: 100%;
+    
   }
 
 
