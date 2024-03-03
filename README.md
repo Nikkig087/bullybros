@@ -31,7 +31,7 @@
 
 Bullybros is a site that is spefically aimed at providing grooming, boarding and nutritional services and advice for dog owners.  As bulldogs are a unique and a quite expensive their owners tend to be more willing to pay more to ensure they are happy and healthy, thats why that particular breed has been the main focus of this site.
 
-![Responsive Verification](assets/images/responsive-test.webp)
+![Responsive Verification](docs/responsive-test.webp)
 
 # User Stories
 
@@ -63,7 +63,7 @@ Bullybros is a site that is spefically aimed at providing grooming, boarding and
 ## The Colour Scheme
 The color scheme used was based on the typical bulldog colouring.  The colours used are also calming and relaxing and that is the feeling the Users should have when they visit the website.  THis pallet was generated using [Color Fetch](https://www.colorfetch.com/)
 
-![Colour Scheme](assets/images/colour-scheme.webp)
+![Colour Scheme](docs/colour-scheme.webp)
 
 ## The Fonts Used
 
@@ -78,11 +78,11 @@ The fonts used were a mix of soft and strong.  This is a reflection on the natur
 
 ## Wireframes
 ### Desktop and Mobile Homepage
-![Desktop Homepage Wireframe](assets/images/desktop-homepage.webp)   ![Mobile Homepage Wireframe](assets/images/mobile-homepage.webp)
+![Desktop Homepage Wireframe](docs/wireframes/desktop-homepage.webp)   ![Mobile Homepage Wireframe](docs/wireframes/mobile-homepage.webp)
 
 
 ### Desktop and Mobile Subpages
-![Desktop Subpages Wireframe](assets/images/subpages.webp)  ![Mobile Subpages Wireframe](assets/images/mobile-subpage.webp)
+![Desktop Subpages Wireframe](docs/wireframes/subpages.webp)  ![Mobile Subpages Wireframe](docs/wireframes/mobile-subpage.webp)
 
 The subpage layout remained the same for all of the subpages.
 
@@ -99,11 +99,11 @@ The website consists of four webpages.  The Homepage is the Users first point of
   - This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button. 
 
 Nav Bar for Tablet, Laptop and Desktop
-![Nav Bar for Tablet, Laptop and Desktop ](assets/images/navbar-large-screen.webp)
+![Nav Bar for Tablet, Laptop and Desktop ](docs/screenshots/navbar-large-screen.webp)
 <br>
 
 Nav Bar for Mobile
-![Nav Bar Mobile](assets/images/mobile-nav.webp)
+![Nav Bar Mobile](docs/screenshots/mobile-nav.webp)
 
 
 - __The Hero image__
@@ -111,19 +111,19 @@ Nav Bar for Mobile
   - The Home Page includes a Hero image with text overlay to allow the user to quickly navigate to the Services section of the Homepage. 
 
 
-![Landing Page](assets/images/hero-img.webp)
+![Landing Page](docs/screenshots/hero-img.webp)
 
 - __About Section__
 
   - The User is introduced to the Company with a brief history about the Company via the About us section, however this site is built to serve the Users needs so this section was kept very small as to not distract the User away from what they are really there for which is to avail of a Service. 
 
-![About](assets/images/about.png)
+![About](docs/screenshots/about.png)
 
 - __Services section__
 
   - This section allows the User to Navigate directly to the page that they want more information about, the buttons under each of the images specific to each of the Services provide the Users with this easy to use navigation option. 
 
-![Services](assets/images/services.webp)
+![Services](docs/screenshots/services.webp)
 
 - __The Footer__ 
   - The footer section is invaluable to the User as it provides Opening and Closing times for the Company, it also provides the User with an easy to use form in order to contact the Company regarding any queries or bookings they would like to make.
@@ -131,7 +131,7 @@ Nav Bar for Mobile
   - The Social Media links in the footer allow the Users to become more familiar with the company and follow the Companys updates via social media.
   - The footer information is consistant across all pages and the form can easily be submitted on any of the 4 pages.
 
-![Footer](assets/images/footer.webp)
+![Footer](docs/screenshots/footer.webp)
 
 
 ## Grooming Page
@@ -146,7 +146,7 @@ Nav Bar for Mobile
 Laptop and Desktop Grooming Page
 <br>
 
-![grooming Laptop and Desktop](assets/images/grooming-page.webp)
+![grooming Laptop and Desktop](docs/screenshots/grooming-page.webp)
 
 <br>
 <br>
@@ -154,7 +154,7 @@ Laptop and Desktop Grooming Page
 Tablet Grooming Page
 <br>
 
-![grooming Tablet](assets/images/tablet-grooming-page.webp)
+![grooming Tablet](docs/screenshots/tablet-grooming-page.webp)
 
 <br>
 <br>
@@ -162,7 +162,7 @@ Tablet Grooming Page
 Mobile Grooming Page
 <br>
 
-![grooming Mobile](assets/images/mobile-grooming-page.webp)
+![grooming Mobile](docs/screenshots/mobile-grooming-page.webp)
 <br>
 <br>
 
@@ -176,20 +176,20 @@ Mobile Grooming Page
 Laptop and Desktop Boarding page
 <br>
 
-![Boarding Desktop and Laptop Page](assets/images/boarding-desktop-laptop.webp)
+![Boarding Desktop and Laptop Page](docs/screenshots/boarding-desktop-laptop.webp)
 
 <br>
 
 Tablet Boarding page
 <br>
 
-![Boarding Tablet Page](assets/images/boarding-tablet.webp)
+![Boarding Tablet Page](docs/screenshots/boarding-tablet.webp)
 <br>
 
 Mobile Boarding page
 <br>
 
-![Boarding Mobile Page](assets/images/boarding-mobile.webp)
+![Boarding Mobile Page](docs/screenshots/boarding-mobile.webp)
 <br>
 
 
@@ -206,20 +206,20 @@ Mobile Boarding page
 Laptop and Desktop Nutrition page
 <br>
 
-![Nutrition Desktop and Laptop Page](assets/images/nutrition-desktop-laptop.webp)
+![Nutrition Desktop and Laptop Page](docs/screenshots/nutrition-desktop-laptop.webp)
 
 <br>
 
 Tablet Nutrition page
 <br>
 
-![Nutrition Tablet Page](assets/images/nutrition-tablet.webp)
+![Nutrition Tablet Page](docs/screenshots/nutrition-tablet.webp)
 <br>
 
 Mobile Nutrition page
 <br>
 
-![Nutrition Mobile Page](assets/images/nutrition-mobile.webp)
+![Nutrition Mobile Page](docs/screenshots/nutrition-mobile.webp)
 <br>
 
 
@@ -232,7 +232,7 @@ Mobile Nutrition page
   <br>
   W3C Validator Report
   <br>
-  ![W3C validator](assets/images/w3c%20validator.webp)
+  ![W3C validator](docs/testing/w3c%20validator.webp)
   <br>
   <br>
 - CSS
@@ -240,7 +240,7 @@ Mobile Nutrition page
   <br>
   Jigsaw Test Report
   <br>
-  ![Jigsaw testing](assets/images/jigsaw-testing.webp)
+  ![Jigsaw testing](docs/testing/jigsaw-testing.webp)
      <br>
      <br>
 - Lighthouse Performance, Accessibility, Best Practices and SEO
@@ -249,7 +249,8 @@ Mobile Nutrition page
   <br>
   Lighthouse Report
 <br>
-  ![Lighthouse testing](assets/images/lighthouse-verification.webp)
+
+  ![Lighthouse testing](docs/testing/lighthouse-verification.webp)
    
 <br> 
 # Commit History
