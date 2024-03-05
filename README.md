@@ -267,7 +267,6 @@ That being said the rationale behind my numerous commits for this website develo
 <br>
 # Deployment
 
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub) 
 
 - The site was deployed to GitHub pages. The steps to deploy are as follows: 
   - In the GitHub repository, navigate to the Settings tab 
